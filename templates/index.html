@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultor de Reglas FIFA</title>
+    <!-- Conexión dinámica al archivo CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="avatar" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/>
+                    <path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/>
+                    <path d="M9 8h7M9 12h5"/>
+                </svg>
+            </div>
+            <div class="header-text">
+                <h1>Consultor de Reglas FIFA</h1>
+                <p><span class="status-dot"></span>Responde con base en las Reglas de Juego 2026/27</p>
+            </div>
+            <button class="icon-button" id="clear-button" type="button" title="Nueva conversación" aria-label="Nueva conversación">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 12a9 9 0 1 0 3-6.7"/>
+                    <path d="M3 4v5h5"/>
+                </svg>
+            </button>
+        </header>
+
+        <main class="chat-messages" id="chat-messages" aria-live="polite"></main>
+
+        <footer class="chat-input-container">
+            <form class="chat-input-wrapper" id="chat-form" autocomplete="off">
+                <textarea id="user-input" rows="1" placeholder="Escribe tu pregunta sobre las reglas del fútbol..." aria-label="Tu pregunta"></textarea>
+                <button type="submit" id="send-button" aria-label="Enviar" disabled>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                </button>
+            </form>
+            <p class="disclaimer">Las respuestas se generan con IA. Verifica la información importante en las Reglas de Juego oficiales de la IFAB.</p>
+        </footer>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chat-messages');
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+        const clearButton = document.getElementById('clear-button');
+
+        const SUGERENCIAS = [
+            '¿Cuándo un jugador está en fuera de juego?',
+            '¿Qué faltas se sancionan con tarjeta roja?',
+            '¿Cuánto tiempo puede tener el balón el guardameta?',
+            '¿En qué casos interviene el VAR?'
+        ];
+
+        let esperando = false;
+
+        // ---------- Markdown básico (el LLM responde con negritas, listas y tablas) ----------
+        function escapeHtml(texto) {
+            return texto.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        function inline(texto) {
+            return escapeHtml(texto)
+                .replace(/`([^`]+)`/g, '<code>$1</code>')
+                .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+                .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>')
+                .replace(/(\(Fuente:[^)]*\)|【[^】]*】)/g, '<span class="fuente">$1</span>');
+        }
+
+        function celdas(linea) {
+            return linea.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+        }
+
+        function renderMarkdown(texto) {
+            const lineas = texto.replace(/\r/g, '').split('\n');
+            let html = '';
+            let i = 0;
+
+            while (i < lineas.length) {
+                const linea = lineas[i];
+
+                if (!linea.trim()) { i++; continue; }
+
+                // Tabla: fila de encabezado seguida de |---|---|
+                if (linea.trim().startsWith('|') && i + 1 < lineas.length && /^\s*\|?[\s:|-]+\|[\s:|-]*$/.test(lineas[i + 1])) {
+                    html += '<div class="tabla-scroll"><table><thead><tr>' +
+                        celdas(linea).map(c => `<th>${inline(c)}</th>`).join('') + '</tr></thead><tbody>';
+                    i += 2;
+                    while (i < lineas.length && lineas[i].trim().startsWith('|')) {
+                        html += '<tr>' + celdas(lineas[i]).map(c => `<td>${inline(c)}</td>`).join('') + '</tr>';
+                        i++;
+                    }
+                    html += '</tbody></table></div>';
+                    continue;
+                }
+
+                // Listas
+                const esItem = l => /^\s*([-*•]|\d+[.)])\s+/.test(l);
+                if (esItem(linea)) {
+                    const ordenada = /^\s*\d+[.)]\s+/.test(linea);
+                    html += ordenada ? '<ol>' : '<ul>';
+                    while (i < lineas.length && (esItem(lineas[i]) || (lineas[i].trim() && /^\s{2,}/.test(lineas[i])))) {
+                        if (esItem(lineas[i])) {
+                            html += `<li>${inline(lineas[i].replace(/^\s*([-*•]|\d+[.)])\s+/, ''))}`;
+                        } else {
+                            html += `<br>${inline(lineas[i].trim())}`;
+                        }
+                        i++;
+                        // Permite una línea en blanco entre elementos de la misma lista
+                        if (i + 1 < lineas.length && !lineas[i].trim() && esItem(lineas[i + 1])) i++;
+                        if (i >= lineas.length || esItem(lineas[i]) || !lineas[i].trim() || !/^\s{2,}/.test(lineas[i])) html += '</li>';
+                    }
+                    html += ordenada ? '</ol>' : '</ul>';
+                    continue;
+                }
+
+                const titulo = linea.match(/^\s*#{1,6}\s+(.*)$/);
+                if (titulo) { html += `<h4>${inline(titulo[1])}</h4>`; i++; continue; }
+
+                if (/^\s*(-{3,}|\*{3,})\s*$/.test(linea)) { html += '<hr>'; i++; continue; }
+
+                if (/^\s*>/.test(linea)) {
+                    const cita = [];
+                    while (i < lineas.length && /^\s*>/.test(lineas[i])) { cita.push(lineas[i].replace(/^\s*>\s?/, '')); i++; }
+                    html += `<blockquote>${cita.map(inline).join('<br>')}</blockquote>`;
+                    continue;
+                }
+
+                // Párrafo: junta las líneas seguidas
+                const parrafo = [];
+                while (i < lineas.length && lineas[i].trim() && !esItem(lineas[i]) &&
+                       !lineas[i].trim().startsWith('|') && !/^\s*(#{1,6}\s|>)/.test(lineas[i])) {
+                    parrafo.push(lineas[i].trim());
+                    i++;
+                }
+                if (parrafo.length) {
+                    html += `<p>${parrafo.map(inline).join('<br>')}</p>`;
+                } else {
+                    html += `<p>${inline(linea.trim())}</p>`;
+                    i++;
+                }
+            }
+            return html;
+        }
+
+        // ---------- Mensajes ----------
+        function hora() {
+            return new Date().toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' });
+        }
+
+        function scrollAlFinal() {
+            chatMessages.scrollTo({ top: chatMessages.scrollHeight, behavior: 'smooth' });
+        }
+
+        function appendMessage(text, sender, esError = false) {
+            const fila = document.createElement('div');
+            fila.classList.add('message-row', sender);
+
+            const burbuja = document.createElement('div');
+            burbuja.classList.add('message', sender);
+            if (esError) burbuja.classList.add('error');
+
+            if (sender === 'bot') {
+                burbuja.innerHTML = renderMarkdown(text);
+            } else {
+                burbuja.textContent = text;
+            }
+
+            const tiempo = document.createElement('span');
+            tiempo.classList.add('message-time');
+            tiempo.textContent = hora();
+
+            fila.appendChild(burbuja);
+            fila.appendChild(tiempo);
+            chatMessages.appendChild(fila);
+            scrollAlFinal();
+        }
+
+        function mostrarEscribiendo() {
+            const fila = document.createElement('div');
+            fila.classList.add('message-row', 'bot');
+            fila.id = 'typing';
+            fila.innerHTML = '<div class="message bot typing" aria-label="Escribiendo"><span></span><span></span><span></span></div>';
+            chatMessages.appendChild(fila);
+            scrollAlFinal();
+        }
+
+        function ocultarEscribiendo() {
+            const fila = document.getElementById('typing');
+            if (fila) fila.remove();
+        }
+
+        function mostrarBienvenida() {
+            chatMessages.innerHTML = '';
+            const bienvenida = document.createElement('div');
+            bienvenida.classList.add('welcome');
+            bienvenida.id = 'welcome';
+            bienvenida.innerHTML = `
+                <h2>¿En qué te puedo ayudar?</h2>
+                <p>Pregúntame sobre las Reglas de Juego del fútbol (IFAB/FIFA 2026/27). Cito la regla y la página de donde sale cada respuesta.</p>
+                <div class="suggestions"></div>`;
+            const contenedor = bienvenida.querySelector('.suggestions');
+            SUGERENCIAS.forEach(texto => {
+                const chip = document.createElement('button');
+                chip.type = 'button';
+                chip.classList.add('chip');
+                chip.textContent = texto;
+                chip.addEventListener('click', () => sendMessage(texto));
+                contenedor.appendChild(chip);
+            });
+            chatMessages.appendChild(bienvenida);
+        }
+
+        function actualizarEntrada() {
+            userInput.style.height = 'auto';
+            userInput.style.height = Math.min(userInput.scrollHeight, 140) + 'px';
+            sendButton.disabled = esperando || !userInput.value.trim();
+        }
+
+        async function sendMessage(textoDirecto) {
+            const text = (textoDirecto ?? userInput.value).trim();
+            if (!text || esperando) return;
+
+            const bienvenida = document.getElementById('welcome');
+            if (bienvenida) bienvenida.remove();
+
+            // Muestra el mensaje del usuario
+            appendMessage(text, 'user');
+            userInput.value = '';
+            esperando = true;
+            actualizarEntrada();
+            mostrarEscribiendo();
+
+            // Si el servidor no responde en 2 minutos, cancela y avisa en vez de esperar para siempre
+            const control = new AbortController();
+            const limite = setTimeout(() => control.abort(), 120000);
+
+            try {
+                // Envía los datos al backend de Flask
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text }),
+                    signal: control.signal
+                });
+
+                const data = await response.json();
+                ocultarEscribiendo();
+
+                // Muestra la respuesta del bot
+                appendMessage(data.response, 'bot', !response.ok);
+            } catch (error) {
+                console.error('Error de conexión:', error);
+                ocultarEscribiendo();
+                const mensaje = error.name === 'AbortError'
+                    ? 'El servidor tardó demasiado en responder. Inténtalo de nuevo en un momento.'
+                    : 'No pude conectarme con el servidor. Revisa tu conexión e inténtalo de nuevo.';
+                appendMessage(mensaje, 'bot', true);
+            } finally {
+                clearTimeout(limite);
+                esperando = false;
+                actualizarEntrada();
+                userInput.focus();
+            }
+        }
+
+        chatForm.addEventListener('submit', event => {
+            event.preventDefault();
+            sendMessage();
+        });
+
+        // Enter envía, Shift+Enter hace salto de línea
+        userInput.addEventListener('keydown', event => {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        });
+
+        userInput.addEventListener('input', actualizarEntrada);
+
+        clearButton.addEventListener('click', () => {
+            if (esperando) return;
+            mostrarBienvenida();
+            userInput.focus();
+        });
+
+        mostrarBienvenida();
+        userInput.focus();
+    </script>
+</body>
+</html>

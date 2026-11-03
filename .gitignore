@@ -1,0 +1,10 @@
+# Ocultar claves secretas
+.env
+
+# Ocultar entorno virtual
+env/
+venv/
+
+# Ocultar archivos temporales de Python
+__pycache__/
+*.pyc

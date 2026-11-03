@@ -1,0 +1,3 @@
+*.npy binary
+*.bin binary
+*.sqlite3 binary
