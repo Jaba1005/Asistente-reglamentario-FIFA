@@ -1,0 +1,38 @@
+[
+  {
+    "archivo": "audio1.m4a",
+    "hablante": "Alejandro",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "¿Hay fuera de juego si un jugador recibe el balón directamente de un saque de meta, de un saque de banda o de un saque de esquina?",
+    "duracion_s": 11.3,
+    "transcripcion": "¿Hay fuera de juego si un jugador recibe el balón directamente de un saque de meta, de un saque de banda o de un saque de esquina?",
+    "respuesta": "No habrá fuera de juego cuando el balón provenga directamente de un saque de meta, de un saque de banda o de un saque de esquina. En esos casos, aunque el jugador se encuentre en posición “offside”, no se sanciona ninguna infracción. (Regla 11 – El fuera de juego, pág. 119)"
+  },
+  {
+    "archivo": "audio2.m4a",
+    "hablante": "Voz de IA",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "Tengo una duda sobre las Reglas de Juego: ¿Qué se sanciona si el guardameta controla el balón con las manos durante más de ocho segundos dentro de su área penal?",
+    "duracion_s": 10.5,
+    "transcripcion": "Tengo una duda sobre las reglas de juego, que se sanciona si el guardameta controla el balón con las manos durante más de 8 segundos dentro de su área penal.",
+    "respuesta": "Según la **Regla 12 – Faltas y conducta incorrecta**, si el guardameta controla el balón con las manos o los brazos dentro de su propia área penal durante más de ocho segundos, el árbitro sanciona la infracción concediendo **un saque de esquina al equipo adversario**. (Fuente: Reglas‑de‑Juego‑2026‑27‑IFAB.pdf, pág. 127; también pág. 12)."
+  },
+  {
+    "archivo": "audio3.m4a",
+    "hablante": "Alejandro",
+    "condicion": "con ruido",
+    "lo_que_se_dijo": "¿Cuándo se concede un tiro libre indirecto y cómo lo señala el árbitro?",
+    "duracion_s": 11.4,
+    "transcripcion": "¿Cuándo se concede un tiro libre indirecto y cómo lo señala el árbitro?",
+    "respuesta": "No pude completar la respuesta: se alcanzó el límite de llamadas a herramientas."
+  },
+  {
+    "archivo": "audio4.m4a",
+    "hablante": "Voz de IA",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "Tengo una duda sobre las Reglas de Juego: ¿En qué situaciones puede intervenir el VAR y qué es una revisión en el área de revisión del terreno de juego?",
+    "duracion_s": 10.9,
+    "transcripcion": "Tengo una duda sobre las reglas de juego. ¿En qué situaciones puede intervenir el VAR y qué es una revisión en el área de revisión del terreno de juego?",
+    "respuesta": "**Situaciones en que puede intervenir el VAR**  \nSegún el **Protocolo del VAR** (Regla 12 – Faltas e incorrecciones y su anexo de VAR), el VAR está autorizado a revisar y, si procede, a recomendar al árbitro que modifique la decisión inicial en los siguientes incidentes objetivos:\n\n* **Concesión de goles** (incluido si el balón cruzó la línea o si hubo una infracción previa al gol).  \n* **Decisiones de penalti** (concesión o no de penalti).  \n* **Tarjetas rojas** por impedir una ocasión manifiesta de gol.  \n* **Posibles errores de identidad** al sancionar a un jugador.  \n* **Situaciones de fuera de juego** y **manos** que puedan afectar la jugada.  \n* **Balón fuera de juego** o **balón no en juego** (por ejemplo, si el árbitro no había detenido el juego).  \n\nEn todos estos casos la revisión debe demostrar **claramente** que la decisión original fue un “error claro, obvio y manifiesto” antes de que el árbitro la modifique【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 166】.  \n\nEl VAR **solo puede recomendar** una revisión; la decisión final de iniciar o no la revisión corresponde exclusivamente al árbitro principal【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 166】.\n\n---\n\n**Qué es una “revisión en el área de revisión del terreno de juego”**  \nEl **área de revisión** es una zona claramente marcada fuera del terreno de juego, visible para todos los participantes【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 57】.  \n\nDurante una revisión:\n\n* Los **jugadores** deben permanecer **en el terreno de juego**;  \n* Los **suplentes y el cuerpo técnico** deben permanecer **fuera del área de revisión**.  \n\nCualquier intento de influir o interferir en el proceso de revisión por parte de jugadores, suplentes o cuerpo técnico está prohibido y será amonestado【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 173】.  \n\nSi el juego ya está detenido, el árbitro retrasará la reanudación hasta que concluya la revisión; si el juego no está detenido, el árbitro lo suspenderá en el primer momento neutral (cuando ninguno de los equipos esté atacando) y hará la señal de la televisión para iniciar la revisión【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 170】.  \n\nEn resumen, el VAR interviene en decisiones clave (goles, penaltis, tarjetas rojas, errores de identidad, fuera de juego, mano y balón fuera de juego) y la “revisión en el área de revisión del terreno de juego” es el proceso formal que se lleva a cabo fuera del campo, bajo estrictas normas de conducta para jugadores y cuerpo técnico.  "
+  }
+]

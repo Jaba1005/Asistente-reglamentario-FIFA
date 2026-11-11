@@ -1,0 +1,222 @@
+{
+  "esquema": {
+    "description": "Esquema de extracción: datos de una página del reglamento.",
+    "properties": {
+      "numero_regla": {
+        "description": "Número de la regla, según el pie de página (Regla N)",
+        "title": "Numero Regla",
+        "type": "integer"
+      },
+      "nombre_regla": {
+        "description": "Nombre de la regla (título grande de la página)",
+        "title": "Nombre Regla",
+        "type": "string"
+      },
+      "numero_pagina": {
+        "description": "Número de página impreso en el pie de página",
+        "title": "Numero Pagina",
+        "type": "integer"
+      },
+      "temporada": {
+        "description": "Temporada de las Reglas de Juego, formato AAAA/AA",
+        "title": "Temporada",
+        "type": "string"
+      },
+      "primer_apartado": {
+        "description": "Título del apartado numerado 1",
+        "title": "Primer Apartado",
+        "type": "string"
+      },
+      "cantidad_apartados": {
+        "description": "Cantidad de apartados numerados (1., 2., 3., ...) visibles en la página",
+        "title": "Cantidad Apartados",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "numero_regla",
+      "nombre_regla",
+      "numero_pagina",
+      "temporada",
+      "primer_apartado",
+      "cantidad_apartados"
+    ],
+    "title": "PaginaRegla",
+    "type": "object"
+  },
+  "detalle": [
+    {
+      "imagen": "02_regla2_balon.png",
+      "respuesta_cruda": "{\n  \"numero_regla\": \"2\",\n  \"nombre_regla\": \"El balón\",\n  \"numero_pagina\": \"59\",\n  \"temporada\": \"2026/27\",\n  \"primer_apartado\": \"Características y medidas\",\n  \"cantidad_apartados\": 1\n}",
+      "valido": true,
+      "errores": null,
+      "extraido": {
+        "numero_regla": 2,
+        "nombre_regla": "El balón",
+        "numero_pagina": 59,
+        "temporada": "2026/27",
+        "primer_apartado": "Características y medidas",
+        "cantidad_apartados": 1
+      }
+    },
+    {
+      "imagen": "03_regla3_jugadores.png",
+      "respuesta_cruda": "{\n  \"numero_regla\": \"3\",\n  \"nombre_regla\": \"Los jugadores\",\n  \"numero_pagina\": \"63\",\n  \"temporada\": \"2026/27\",\n  \"primer_apartado\": \"Número de jugadores\",\n  \"cantidad_apartados\": 2\n}",
+      "valido": true,
+      "errores": null,
+      "extraido": {
+        "numero_regla": 3,
+        "nombre_regla": "Los jugadores",
+        "numero_pagina": 63,
+        "temporada": "2026/27",
+        "primer_apartado": "Número de jugadores",
+        "cantidad_apartados": 2
+      }
+    },
+    {
+      "imagen": "04_regla7_duracion.png",
+      "respuesta_cruda": "{\n  \"numero_regla\": \"7\",\n  \"nombre_regla\": \"La duración del partido\",\n  \"numero_pagina\": \"101\",\n  \"temporada\": \"2026/27\",\n  \"primer_apartado\": \"Períodos de juego\",\n  \"cantidad_apartados\": 3\n}",
+      "valido": true,
+      "errores": null,
+      "extraido": {
+        "numero_regla": 7,
+        "nombre_regla": "La duración del partido",
+        "numero_pagina": 101,
+        "temporada": "2026/27",
+        "primer_apartado": "Períodos de juego",
+        "cantidad_apartados": 3
+      }
+    }
+  ],
+  "comparacion": [
+    {
+      "imagen": "02_regla2_balon.png",
+      "campo": "numero_regla",
+      "valor_real": 2,
+      "valor_extraido": 2,
+      "correcto": true
+    },
+    {
+      "imagen": "02_regla2_balon.png",
+      "campo": "nombre_regla",
+      "valor_real": "El balón",
+      "valor_extraido": "El balón",
+      "correcto": true
+    },
+    {
+      "imagen": "02_regla2_balon.png",
+      "campo": "numero_pagina",
+      "valor_real": 59,
+      "valor_extraido": 59,
+      "correcto": true
+    },
+    {
+      "imagen": "02_regla2_balon.png",
+      "campo": "temporada",
+      "valor_real": "2026/27",
+      "valor_extraido": "2026/27",
+      "correcto": true
+    },
+    {
+      "imagen": "02_regla2_balon.png",
+      "campo": "primer_apartado",
+      "valor_real": "Características y medidas",
+      "valor_extraido": "Características y medidas",
+      "correcto": true
+    },
+    {
+      "imagen": "02_regla2_balon.png",
+      "campo": "cantidad_apartados",
+      "valor_real": 1,
+      "valor_extraido": 1,
+      "correcto": true
+    },
+    {
+      "imagen": "03_regla3_jugadores.png",
+      "campo": "numero_regla",
+      "valor_real": 3,
+      "valor_extraido": 3,
+      "correcto": true
+    },
+    {
+      "imagen": "03_regla3_jugadores.png",
+      "campo": "nombre_regla",
+      "valor_real": "Los jugadores",
+      "valor_extraido": "Los jugadores",
+      "correcto": true
+    },
+    {
+      "imagen": "03_regla3_jugadores.png",
+      "campo": "numero_pagina",
+      "valor_real": 63,
+      "valor_extraido": 63,
+      "correcto": true
+    },
+    {
+      "imagen": "03_regla3_jugadores.png",
+      "campo": "temporada",
+      "valor_real": "2026/27",
+      "valor_extraido": "2026/27",
+      "correcto": true
+    },
+    {
+      "imagen": "03_regla3_jugadores.png",
+      "campo": "primer_apartado",
+      "valor_real": "Número de jugadores",
+      "valor_extraido": "Número de jugadores",
+      "correcto": true
+    },
+    {
+      "imagen": "03_regla3_jugadores.png",
+      "campo": "cantidad_apartados",
+      "valor_real": 2,
+      "valor_extraido": 2,
+      "correcto": true
+    },
+    {
+      "imagen": "04_regla7_duracion.png",
+      "campo": "numero_regla",
+      "valor_real": 7,
+      "valor_extraido": 7,
+      "correcto": true
+    },
+    {
+      "imagen": "04_regla7_duracion.png",
+      "campo": "nombre_regla",
+      "valor_real": "La duración del partido",
+      "valor_extraido": "La duración del partido",
+      "correcto": true
+    },
+    {
+      "imagen": "04_regla7_duracion.png",
+      "campo": "numero_pagina",
+      "valor_real": 101,
+      "valor_extraido": 101,
+      "correcto": true
+    },
+    {
+      "imagen": "04_regla7_duracion.png",
+      "campo": "temporada",
+      "valor_real": "2026/27",
+      "valor_extraido": "2026/27",
+      "correcto": true
+    },
+    {
+      "imagen": "04_regla7_duracion.png",
+      "campo": "primer_apartado",
+      "valor_real": "Periodos de juego",
+      "valor_extraido": "Períodos de juego",
+      "correcto": true
+    },
+    {
+      "imagen": "04_regla7_duracion.png",
+      "campo": "cantidad_apartados",
+      "valor_real": 3,
+      "valor_extraido": 3,
+      "correcto": true
+    }
+  ],
+  "aciertos": 18,
+  "total": 18,
+  "porcentaje": 100.0
+}

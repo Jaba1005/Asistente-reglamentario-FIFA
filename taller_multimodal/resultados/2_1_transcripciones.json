@@ -1,0 +1,34 @@
+[
+  {
+    "archivo": "audio1.m4a",
+    "hablante": "Alejandro",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "¿Hay fuera de juego si un jugador recibe el balón directamente de un saque de meta, de un saque de banda o de un saque de esquina?",
+    "duracion_s": 11.3,
+    "transcripcion": "¿Hay fuera de juego si un jugador recibe el balón directamente de un saque de meta, de un saque de banda o de un saque de esquina?"
+  },
+  {
+    "archivo": "audio2.m4a",
+    "hablante": "Voz de IA",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "Tengo una duda sobre las Reglas de Juego: ¿Qué se sanciona si el guardameta controla el balón con las manos durante más de ocho segundos dentro de su área penal?",
+    "duracion_s": 10.5,
+    "transcripcion": "Tengo una duda sobre las reglas de juego, que se sanciona si el guardameta controla el balón con las manos durante más de 8 segundos dentro de su área penal."
+  },
+  {
+    "archivo": "audio3.m4a",
+    "hablante": "Alejandro",
+    "condicion": "con ruido",
+    "lo_que_se_dijo": "¿Cuándo se concede un tiro libre indirecto y cómo lo señala el árbitro?",
+    "duracion_s": 11.4,
+    "transcripcion": "¿Cuándo se concede un tiro libre indirecto y cómo lo señala el árbitro?"
+  },
+  {
+    "archivo": "audio4.m4a",
+    "hablante": "Voz de IA",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "Tengo una duda sobre las Reglas de Juego: ¿En qué situaciones puede intervenir el VAR y qué es una revisión en el área de revisión del terreno de juego?",
+    "duracion_s": 10.9,
+    "transcripcion": "Tengo una duda sobre las reglas de juego. ¿En qué situaciones puede intervenir el VAR y qué es una revisión en el área de revisión del terreno de juego?"
+  }
+]

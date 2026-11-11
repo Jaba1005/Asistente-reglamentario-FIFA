@@ -1,0 +1,27 @@
+{
+  "_nota": "Valores leídos a mano en cada imagen (páginas del PDF Reglas-de-Juego-2026-27-IFAB.pdf del repositorio).",
+  "02_regla2_balon.png": {
+    "numero_regla": 2,
+    "nombre_regla": "El balón",
+    "numero_pagina": 59,
+    "temporada": "2026/27",
+    "primer_apartado": "Características y medidas",
+    "cantidad_apartados": 1
+  },
+  "03_regla3_jugadores.png": {
+    "numero_regla": 3,
+    "nombre_regla": "Los jugadores",
+    "numero_pagina": 63,
+    "temporada": "2026/27",
+    "primer_apartado": "Número de jugadores",
+    "cantidad_apartados": 2
+  },
+  "04_regla7_duracion.png": {
+    "numero_regla": 7,
+    "nombre_regla": "La duración del partido",
+    "numero_pagina": 101,
+    "temporada": "2026/27",
+    "primer_apartado": "Periodos de juego",
+    "cantidad_apartados": 3
+  }
+}

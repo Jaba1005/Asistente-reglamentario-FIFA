@@ -1,0 +1,13 @@
+{
+  "tipo": "demasiadas",
+  "que_se_hizo": "Se envían 4 imágenes en un mensaje; el límite del modelo de visión es 3 por solicitud.",
+  "modelo": "qwen/qwen3.8-27b",
+  "error": "BadRequestError",
+  "codigo_http": 400,
+  "mensaje": {
+    "error": {
+      "message": "Too many images provided.  This model supports up to 3 images",
+      "type": "invalid_request_error"
+    }
+  }
+}
