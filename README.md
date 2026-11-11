@@ -5,7 +5,7 @@ Asistente conversacional que responde preguntas sobre las **Reglas de Juego 2026
 Proyecto del curso **Desarrollo de Aplicaciones con IA**.
 
 - **App desplegada:** https://asistente-reglamentario-fifa.onrender.com
-- **Integrantes:** _(nombres del grupo)_
+- **Integrantes:** Jhoan Alejandro Barrera Aguilar
 
 > En el plan gratuito de Render la app se suspende cuando no se usa: la primera pregunta puede tardar cerca de un minuto mientras arranca.
 
