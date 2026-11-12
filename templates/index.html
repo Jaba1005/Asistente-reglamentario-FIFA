@@ -55,10 +55,13 @@
             '¿Cuándo un jugador está en fuera de juego?',
             '¿Qué faltas se sancionan con tarjeta roja?',
             '¿Cuánto tiempo puede tener el balón el guardameta?',
-            '¿En qué casos interviene el VAR?'
+            '¿En qué casos interviene el VAR?',
+            'Mi cancha mide 105 x 68 m, ¿sirve para un partido internacional?'
         ];
 
         let esperando = false;
+        // Historial de la conversación: se envía al servidor en cada pregunta (máx. 6 mensajes)
+        let historial = [];
 
         // ---------- Markdown básico (el LLM responde con negritas, listas y tablas) ----------
         function escapeHtml(texto) {
@@ -70,7 +73,8 @@
                 .replace(/`([^`]+)`/g, '<code>$1</code>')
                 .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
                 .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>')
-                .replace(/(\(Fuente:[^)]*\)|【[^】]*】)/g, '<span class="fuente">$1</span>');
+                .replace(/(\(Fuente:[^)]*\)|【[^】]*】)/g, '<span class="fuente">$1</span>')
+                .replace(/\[web:\s*(https?:\/\/[^\]\s]+)\]/g, '<a class="fuente web" href="$1" target="_blank" rel="noopener">[web]</a>');
         }
 
         function celdas(linea) {
@@ -158,7 +162,60 @@
             chatMessages.scrollTo({ top: chatMessages.scrollHeight, behavior: 'smooth' });
         }
 
-        function appendMessage(text, sender, esError = false) {
+        // ---------- Detalle del agente: tools usadas y fuentes por origen ----------
+        function detalleAgente(data) {
+            const tools = data.tools || [];
+            const base = data.sources_base || [];
+            const web = data.sources_web || [];
+            const caja = document.createElement('div');
+            caja.classList.add('agente-detalle');
+
+            const dTools = document.createElement('details');
+            dTools.innerHTML = `<summary>🔧 Tools usadas (${tools.length}) · ${data.llm_calls ?? '?'} llamadas al LLM · ${data.time_s ?? '?'} s</summary>`;
+            const lista = document.createElement('ul');
+            if (!tools.length) {
+                lista.innerHTML = '<li>Ninguna: respondió sin consultar herramientas.</li>';
+            }
+            tools.forEach(t => {
+                const li = document.createElement('li');
+                li.innerHTML = `<code>${escapeHtml(t.tool)}</code> <span class="args">${escapeHtml(JSON.stringify(t.args))}</span>`;
+                lista.appendChild(li);
+            });
+            dTools.appendChild(lista);
+            caja.appendChild(dTools);
+
+            if (base.length || web.length) {
+                const dFuentes = document.createElement('details');
+                dFuentes.innerHTML = `<summary>📚 Fuentes · base (${base.length}) · web (${web.length})</summary>`;
+                if (base.length) {
+                    const h = document.createElement('p'); h.className = 'origen'; h.textContent = 'Base de conocimientos';
+                    const ul = document.createElement('ul');
+                    base.forEach(f => {
+                        const li = document.createElement('li');
+                        li.textContent = `${f.documento} — Pág. ${f.pagina}${f.seccion ? ' · ' + f.seccion : ''}`;
+                        ul.appendChild(li);
+                    });
+                    dFuentes.append(h, ul);
+                }
+                if (web.length) {
+                    const h = document.createElement('p'); h.className = 'origen'; h.textContent = 'Web (sitios permitidos)';
+                    const ul = document.createElement('ul');
+                    web.forEach(f => {
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.href = f.url; a.target = '_blank'; a.rel = 'noopener';
+                        a.textContent = f.titulo || f.url;
+                        li.append(a, document.createTextNode(` — ${f.url}`));
+                        ul.appendChild(li);
+                    });
+                    dFuentes.append(h, ul);
+                }
+                caja.appendChild(dFuentes);
+            }
+            return caja;
+        }
+
+        function appendMessage(text, sender, esError = false, data = null) {
             const fila = document.createElement('div');
             fila.classList.add('message-row', sender);
 
@@ -168,6 +225,7 @@
 
             if (sender === 'bot') {
                 burbuja.innerHTML = renderMarkdown(text);
+                if (data && !esError) burbuja.appendChild(detalleAgente(data));
             } else {
                 burbuja.textContent = text;
             }
@@ -246,15 +304,18 @@
                 const response = await fetch('/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ message: text }),
+                    body: JSON.stringify({ message: text, history: historial.slice(-6) }),
                     signal: control.signal
                 });
 
                 const data = await response.json();
                 ocultarEscribiendo();
 
-                // Muestra la respuesta del bot
-                appendMessage(data.response, 'bot', !response.ok);
+                // Muestra la respuesta del bot con las tools y fuentes del agente
+                appendMessage(data.response, 'bot', !response.ok, data);
+                if (response.ok) {
+                    historial.push({ rol: 'user', texto: text }, { rol: 'bot', texto: data.response });
+                }
             } catch (error) {
                 console.error('Error de conexión:', error);
                 ocultarEscribiendo();
@@ -287,6 +348,7 @@
 
         clearButton.addEventListener('click', () => {
             if (esperando) return;
+            historial = [];
             mostrarBienvenida();
             userInput.focus();
         });

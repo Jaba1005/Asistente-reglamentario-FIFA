@@ -1,0 +1,4 @@
+# Dependencias extra SOLO para evaluar_agente.py (no se instalan en Render)
+-r requirements.txt
+ragas==0.4.3
+pandas==3.1.1

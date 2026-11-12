@@ -8,3 +8,5 @@ venv/
 # Ocultar archivos temporales de Python
 __pycache__/
 *.pyc
+# Registro local de uso de tools (en Render queda en el log del servicio)
+logs/

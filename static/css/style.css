@@ -529,3 +529,29 @@ html, body {
         font-size: 22px;
     }
 }
+
+/* ---------- Avance 3: detalle del agente (tools y fuentes) ---------- */
+.agente-detalle {
+    margin-top: 10px;
+    border-top: 1px solid var(--borde);
+    padding-top: 6px;
+    font-size: 0.82rem;
+    color: var(--texto-suave);
+}
+.agente-detalle details { margin: 4px 0; }
+.agente-detalle summary {
+    cursor: pointer;
+    user-select: none;
+    font-weight: 600;
+}
+.agente-detalle ul { margin: 6px 0 6px 18px; padding: 0; }
+.agente-detalle li { margin: 2px 0; word-break: break-word; }
+.agente-detalle code {
+    background: var(--primario-suave);
+    color: var(--primario-oscuro);
+    padding: 1px 5px;
+    border-radius: 4px;
+}
+.agente-detalle .args { font-family: ui-monospace, Consolas, monospace; }
+.agente-detalle .origen { margin: 6px 0 0; font-weight: 600; color: var(--texto); }
+.agente-detalle a, .fuente.web { color: var(--primario); }
