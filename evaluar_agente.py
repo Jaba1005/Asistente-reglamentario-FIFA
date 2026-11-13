@@ -23,6 +23,7 @@ o usar otro modelo como juez de Ragas (tiene su propio límite diario):
 Si Ragas se corta, al repetir el comando solo se evalúan las preguntas que quedaron sin nota.
 """
 import os
+import re
 import sys
 import json
 import time
@@ -264,7 +265,7 @@ def revisar_caso(caso, r):
         llamadas = [t["args"] for t in r["tools"] if t["tool"] == tool]
         if not any(all(a.get(k) == v for k, v in args.items()) for a in llamadas):
             motivos.append(f"{tool} sin argumentos {args}")
-    if regla.get("cita_base") and "Pág" not in texto:
+    if regla.get("cita_base") and not re.search(r"p[áa]g(\.|ina)", texto, re.IGNORECASE):
         motivos.append("no cita página")
     if regla.get("fuentes_web_permitidas"):
         urls = [f["url"] for f in r["fuentes_web"]]
@@ -307,6 +308,19 @@ def correr_casos(casos, pausa):
     return sorted(filas, key=lambda f: f["id"])
 
 
+def revisar_casos_guardados():
+    """Recalcula cumple/motivos de los casos ya ejecutados, sin llamar al LLM (0 tokens)."""
+    reglas = {c["id"]: c for c in cargar("casos_comportamiento.json")}
+    filas = cargar("casos_resultados.json", RES_DIR, [])
+    for f in filas:
+        r = {"respuesta": f["obtenido"], "tools": f["tools"],
+             "fuentes_web": f.get("fuentes_web", []), "limite": f.get("limite")}
+        f["cumple"], f["motivos"] = revisar_caso(reglas[f["id"]], r)
+    filas = sorted(filas, key=lambda f: f["id"])
+    guardar("casos_resultados.json", filas)
+    return filas
+
+
 def md_casos(filas):
     def tools_txt(ts):
         return "; ".join(f"{t['tool']}({json.dumps(t['args'], ensure_ascii=False)})" for t in ts) or "ninguna"
@@ -328,10 +342,23 @@ def main():
     parser.add_argument("--pausa", type=float, default=20.0, help="segundos entre llamadas (límite de Groq)")
     parser.add_argument("--rehacer", action="store_true", help="borrar resultados anteriores y empezar de cero")
     parser.add_argument("--juez", default=None, help="modelo de Groq que califica en Ragas (por defecto openai/gpt-oss-20b)")
+    parser.add_argument("--revisar-casos", action="store_true",
+                        help="recalcular cumple/motivos de los casos guardados, sin llamar al LLM")
     args = parser.parse_args()
     global RAGAS_MODEL
     if args.juez:
         RAGAS_MODEL = args.juez
+
+    if args.revisar_casos:
+        filas_casos = revisar_casos_guardados()
+        guardar("casos_comportamiento.md", md_casos(filas_casos))
+        resumen = cargar("resumen.json", RES_DIR, {})
+        resumen["casos_cumplidos"] = f"{sum(f['cumple'] for f in filas_casos)}/{len(filas_casos)}"
+        guardar("resumen.json", resumen)
+        print(f"\nCasos cumplidos: {resumen['casos_cumplidos']}")
+        for f in filas_casos:
+            print(f"  {f['id']}: {'Sí' if f['cumple'] else 'No — ' + '; '.join(f['motivos'])}")
+        return
 
     if args.rehacer and os.path.isdir(RES_DIR):
         for nombre in os.listdir(RES_DIR):

@@ -167,10 +167,8 @@
     "tokens": 8444,
     "tiempo_s": 29.59,
     "limite": null,
-    "cumple": false,
-    "motivos": [
-      "no cita página"
-    ]
+    "cumple": true,
+    "motivos": []
   },
   {
     "id": 7,
@@ -241,7 +239,6 @@
     "limite": "Se alcanzó el límite de iteraciones; se respondió con lo ya recuperado.",
     "cumple": false,
     "motivos": [
-      "no cita página",
       "llegó al límite de iteraciones"
     ]
   }
