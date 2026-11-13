@@ -1,0 +1,70 @@
+﻿[rag 15:26:30] Cargando modelo de embeddings...
+.\venv\Scripts\python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to 
+enable higher rate limits and faster downloads.
+En línea: 1 Carácter: 426
++ ... ompila OK"; .\venv\Scripts\python.exe evaluar_agente.py --solo-casos  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[rag 15:26:33] Modelo de embeddings listo
+[rag 15:26:33] Índice listo: 788 fragmentos
+
+=== 4. Casos de comportamiento ===
+[caso 9] Pregunta de dos partes (antes fallaba)
+[rag 15:26:34] Pregunta recibida: '¿Cuándo se concede un tiro libre indirecto y cómo lo señala el árbitro?'
+[rag 15:26:35] [tool] buscar_en_base({'consulta': 'tiro libre indirecto cuándo se concede señal del árbitro'})
+[rag 15:26:36] [tool] buscar_en_base({'consulta': 'tiro libre indirecto se concede señal del árbitro'})
+[rag 15:26:36] [tool] buscar_en_base({'consulta': 'Regla 13 tiro libre indirecto cuándo se concede señal del árbitro'})
+[rag 15:26:50] [tool] buscar_en_base({'consulta': 'tiro libre indirecto señal del árbitro señal'})
+[rag 15:27:15] [registro] llamadas_llm=5 tokens=16630 tiempo=41.38s tools: buscar_en_base({"consulta": "tiro libre indirecto cuándo se concede señal del árbitro"}), buscar_en_base({"consulta": "tiro libre indirecto se concede señal del árbitro"}), buscar_en_base({"consulta": "Regla 13 tiro libre indirecto cuándo se concede señal del árbitro"}), buscar_en_base({"consulta": "tiro libre indirecto señal del árbitro señal"})
+   -> evaluacion/resultados/casos_resultados.json
+   -> evaluacion/resultados/casos_comportamiento.md
+   -> evaluacion/resultados/resumen.json
+
+Listo.
+{
+  "n_preguntas": 15,
+  "juez_ragas": "openai/gpt-oss-20b",
+  "ragas": {
+    "fijo": {
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.7184,
+      "context_precision": 0.6393,
+      "context_recall": 1.0
+    },
+    "agente": {
+      "faithfulness": NaN,
+      "answer_relevancy": NaN,
+      "context_precision": NaN,
+      "context_recall": NaN
+    }
+  },
+  "ragas_valores_validos": {
+    "fijo": {
+      "faithfulness": 7,
+      "answer_relevancy": 11,
+      "context_precision": 10,
+      "context_recall": 10
+    },
+    "agente": {
+      "faithfulness": 0,
+      "answer_relevancy": 0,
+      "context_precision": 0,
+      "context_recall": 0
+    }
+  },
+  "costo": {
+    "fijo": {
+      "llamadas_llm": 1.0,
+      "tokens_total": 1970.2,
+      "tiempo_s": 1.49
+    },
+    "agente": {
+      "llamadas_llm": 2.2,
+      "tokens_total": 5130.2,
+      "tiempo_s": 2.93
+    }
+  },
+  "casos_cumplidos": "6/9"
+}

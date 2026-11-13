@@ -6,8 +6,8 @@ Bucle manual (sin create_agent) para controlar los límites y registrar cada pas
                                                |--no--> respuesta final
 
 Límites por pregunta (en código):
-  - MAX_LLAMADAS_LLM: llamadas máximas al LLM. En la última se le prohíbe pedir tools para que
-    tenga que responder con lo que ya recuperó (antes se quedaba sin respuesta).
+  - MAX_LLAMADAS_LLM: llamadas máximas al LLM. La última se hace SIN tools: se le pasa al LLM
+    lo que ya recuperó y debe responder con eso (antes se quedaba sin respuesta).
   - MAX_LLAMADAS_TOOLS: tools máximas ejecutadas por pregunta (evita bucles de búsqueda).
 
 Cada pregunta queda registrada en logs/uso_tools.jsonl (y en el log de Render).
@@ -17,6 +17,7 @@ import json
 import time
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
+from groq import BadRequestError
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage
 
 from busqueda import log
@@ -41,8 +42,10 @@ if not os.getenv("TAVILY_API_KEY"):
 
 llm = ChatGroq(model=GROQ_MODEL, temperature=0.0, timeout=60, max_retries=3)
 llm_con_tools = llm.bind_tools(TOOLS)
-# Mismas tools declaradas pero prohibido llamarlas: para la última vuelta del bucle
-llm_sin_tools = llm.bind_tools(TOOLS, tool_choice="none")
+# Para la respuesta final forzada se usa el LLM sin tools. Con tool_choice="none" gpt-oss
+# a veces intentaba llamar una tool igual y Groq respondía error 400 (tool_use_failed).
+llm_sin_tools = llm
+MAX_CARACTERES_RESULTADOS_FINAL = 8000  # lo recuperado que se le pasa en la respuesta forzada
 TOOLS_POR_NOMBRE = {t.name: t for t in TOOLS}
 
 
@@ -86,32 +89,53 @@ def _unicos(lista):
     return salida
 
 
+def _respuesta_forzada(pregunta, historial, resultados, fecha):
+    """Última llamada sin tools: la pregunta + lo que devolvieron las tools, en un solo mensaje."""
+    recuperado = "\n\n".join(resultados)[:MAX_CARACTERES_RESULTADOS_FINAL] or "(no se recuperó nada)"
+    mensajes = [SystemMessage(SYSTEM_PROMPT.format(fecha=fecha))]
+    mensajes += _historial_a_mensajes(historial)
+    mensajes.append(HumanMessage(
+        f"{pregunta}\n\n---\nYa no puedes usar herramientas. Responde SOLO con esta información que "
+        f"devolvieron las herramientas, citando como indican tus reglas:\n{recuperado}"))
+    return llm_sin_tools.invoke(mensajes)
+
+
 def ejecutar_agente(pregunta, historial=None):
     """Responde una pregunta con el agente. Devuelve la respuesta y todo lo que hizo para llegar a ella."""
     inicio = time.time()
     log(f"Pregunta recibida: {pregunta[:80]!r}")
 
-    mensajes = [SystemMessage(SYSTEM_PROMPT.format(fecha=time.strftime("%Y-%m-%d")))]
+    fecha = time.strftime("%Y-%m-%d")
+    mensajes = [SystemMessage(SYSTEM_PROMPT.format(fecha=fecha))]
     mensajes += _historial_a_mensajes(historial)
     mensajes.append(HumanMessage(pregunta))
 
-    tools_usadas, fuentes_base, fuentes_web, contextos = [], [], [], []
+    tools_usadas, fuentes_base, fuentes_web, contextos, resultados = [], [], [], [], []
     llamadas_llm = tokens_in = tokens_out = 0
     respuesta_final, limite = None, None
 
     while respuesta_final is None:
         ultima = llamadas_llm == MAX_LLAMADAS_LLM - 1 or len(tools_usadas) >= MAX_LLAMADAS_TOOLS
-        modelo = llm_sin_tools if ultima else llm_con_tools
-        if ultima and tools_usadas:
-            limite = "Se alcanzó el límite de iteraciones; se respondió con lo ya recuperado."
-            mensajes.append(HumanMessage("Responde ahora con la información que ya obtuviste de las herramientas."))
-        respuesta = modelo.invoke(mensajes)
+        respuesta = None
+        if not ultima:
+            try:
+                respuesta = llm_con_tools.invoke(mensajes)
+            except BadRequestError as e:
+                # Groq rechaza a veces una llamada a tool mal formada: se responde con lo ya recuperado
+                if "tool_use_failed" not in str(e):
+                    raise
+                log(f"Groq rechazó una llamada a tool ({str(e)[:80]}); se fuerza la respuesta final")
+                ultima = True
+        if ultima:
+            if tools_usadas:
+                limite = "Se alcanzó el límite de iteraciones; se respondió con lo ya recuperado."
+            respuesta = _respuesta_forzada(pregunta, historial, resultados, fecha)
         llamadas_llm += 1
         t_in, t_out = _tokens(respuesta)
         tokens_in, tokens_out = tokens_in + t_in, tokens_out + t_out
         mensajes.append(respuesta)
 
-        if not respuesta.tool_calls or ultima:
+        if ultima or not respuesta.tool_calls:
             respuesta_final = respuesta.content or ""
             break
 
@@ -143,7 +167,9 @@ def ejecutar_agente(pregunta, historial=None):
                 elif r.get("origen") == "tarea":
                     contextos.append(json.dumps(r, ensure_ascii=False))
 
-            mensajes.append(ToolMessage(content=json.dumps(resultado, ensure_ascii=False), tool_call_id=llamada["id"]))
+            texto_resultado = json.dumps(resultado, ensure_ascii=False)
+            resultados.append(f"[{nombre}] {texto_resultado}")
+            mensajes.append(ToolMessage(content=texto_resultado, tool_call_id=llamada["id"]))
 
     tiempo = round(time.time() - inicio, 2)
     guardar_registro({

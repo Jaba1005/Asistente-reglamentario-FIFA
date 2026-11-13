@@ -1,0 +1,1085 @@
+[
+  {
+    "pregunta": "¿Cuántos jugadores como mínimo debe tener un equipo para que el partido comience o continúe?",
+    "referencia": "Cada equipo tiene como máximo once jugadores, uno de ellos guardameta. El partido no comenzará ni proseguirá si uno de los equipos dispone de menos de siete jugadores (Regla 3, pág. 63).",
+    "fijo": {
+      "respuesta": "El partido solo puede iniciarse y seguirse si cada equipo cuenta con **al menos siete jugadores**. Si un equipo tiene menos de siete jugadores, el encuentro no comenzará ni continuará.  \n\n**Regla 3 – Los jugadores** (pág. 63) establece que “el partido no comenzará ni proseguirá si uno de los equipos dispone de menos de siete jugadores” y que “el partido no deberá reanudarse… si un equipo no cuenta con siete jugadores como mínimo.” (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 63).",
+      "contextos": [
+        "Regla 3 – Los jugadores\nembargo, el partido no deberá reanudarse una vez que el balón no esté en \njuego si un equipo no cuenta con siete jugadores como mínimo.\n Si las reglas de la competición estipulan que se debe dar a conocer el nombre de \ntodos los jugadores y suplentes antes del saque inicial y un equipo comienza el \nencuentro con menos de once jugadores, únicamente los jugadores y suplentes que \nfiguren en la alineación inicial podrán participar en el partido en cuanto lleguen.\n2. Número de sustituciones",
+        "Regla 3 – Los jugadores\n63\nLos jugadores\n1. Número de jugadores\n Disputarán los partidos dos equipos, cada uno de ellos con un máximo de once \njugadores, uno de los cuales será el guardameta. El partido no comenzará ni \nproseguirá si uno de los equipos dispone de menos de siete jugadores.\n Si uno de los equipos acabara con menos de siete jugadores debido a que uno o \nvarios de ellos hayan abandonado voluntariamente el terreno de juego, el \nárbitro no estará obligado a detener el juego y se podrá otorgar ventaja. Sin",
+        "Regla 3 – Los jugadores\n(incluso si los equipos ya han hecho uso de todas las sustituciones \npermitidas).\nOtros partidos\n En los partidos de selecciones nacionales absolutas, se podrá designar un \nmáximo de quince suplentes, de los cuales se podrán utilizar un máximo de \nocho, a menos que los dos equipos acuerden que se utilicen más sustituciones, \nhasta un máximo de once, en cuyo caso se deberá informar al árbitro antes del \npartido. Se aplicarán las restricciones y procedimientos en vigor relacionados",
+        "Regla 3 – Los jugadores\n65\n Si el árbitro no ha sido informado o no se ha llegado a un acuerdo antes del \ninicio del partido, a cada equipo se le permitirá utilizar como máximo seis \nsuplentes.\nSustituciones ilimitadas\n El uso de las sustituciones ilimitadas está permitido exclusivamente en el \nfútbol juvenil, de veteranos, de personas con discapacidad y fútbol base , \nsiempre que lo apruebe la federación nacional de fútbol, la confederación o la \nFIFA.\nSustituciones adicionales permanentes por conmoción cerebral",
+        "Regla 3 – Los jugadores\ncon las oportunidades de sustitución en competiciones oficiales .\n En el resto de partidos, se podrá utilizar un número mayor de suplentes, \nsiempre que:\n• los equipos lleguen a un acuerdo sobre el número máximo;\n• se haya informado al árbitro antes del comienzo del partido.",
+        "Regla 10 – El resultado de un partido\n115\n Cada equipo ejecutará cinco lanzamientos ateniéndose a las condiciones \ndetalladas a continuación\n• Los tiros deberán ejecutarse por turnos.\n•  Cada uno de los lanzamientos deberá ejecutarlo un jugador diferente; antes \nde poder lanzar un segundo penal, todos los jugadores seleccionados \ndeberán haber ejecutado ya un lanzamiento. \n•  Si, antes de que ambos equipos hayan ejecutado sus cinco tiros, uno hubiera \nmarcado más goles que los que el adversario pudiera anotar con sus cinco",
+        "Regla 3 – Los jugadores\npermita realizar un máximo de cinco sustituciones, ambos equipos:\n•  dispondrán de un máximo de tres oportunidades para proceder con las \nsustituciones*\n•  además de estas tres oportunidades, podrán realizar sustituciones durante el \ndescanso\n *En el caso de que ambos equipos realizaran una sustitución al mismo tiempo, se \nrestará una oportunidad de sustitución a cada uno de ellos. En el caso de que uno \nde los equipos solicite/realice múltiples sustituciones en el mismo momento en el",
+        "Regla 10 – El resultado de un partido\nlesión, cambios en el equipamiento, etc.\n•  Cada uno de los equipos se encargará de decidir el orden en el que ejecutará \nlos lanzamientos. No se informará del orden al árbitro.\n•  Si, al finalizar el partido y antes de la tanda de penales o durante la misma, \nun equipo tiene más jugadores que su adversario, deberá reducir su número \npara equipararlo al del equipo rival, y se informará al árbitro del nombre y el \nnúmero de los jugadores excluidos. Ninguno de ellos podrá participar en la",
+        "Cambios en las Reglas 2026/27\nsubrayados . \nRegla 3. Los jugadores (p. 64)\n2. Número de sustituciones\nTexto modificado\nOtros partidos \nEn los partidos de selecciones nacionales absolutas, se podrá designar un \nmáximo de quince suplentes, de los cuales se podrán utilizar un máximo de \nseis ocho, a menos que los dos equipos acuerden que se utilicen más \nsustituciones, hasta un máximo de once, en cuyo caso se deberá informar al \nárbitro antes del partido. Se aplicarán las restricciones y procedimientos en",
+        "Regla 3 – Los jugadores\n64\nPrórroga\n•  Si los equipos no hubieran utilizado el número máximo de suplentes o no \nhubieran agotado el número máximo de oportunidades de sustitución, \ndurante la prórroga podrán disponer de los suplentes o las oportunidades \nrestantes.\n•  Cuando el reglamento de la competición autorice el empleo durante la \nprórroga de un suplente más, los dos equipos contarán con una oportunidad \nde sustitución adicional.\n•  También podrán realizarse sustituciones tanto en el periodo comprendido"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1984,
+      "tiempo_s": 1.4
+    },
+    "agente": {
+      "respuesta": "Según la Regla 3 – Los jugadores, un partido **no comenzará ni continuará** si uno de los equipos dispone de **menos de siete jugadores**. (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 63)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "mínimo jugadores para que el partido comience continúe"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "63",
+          "seccion": "Regla 3 – Los jugadores"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "107",
+          "seccion": "Regla 8 – Inicio y reanudación del juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "143",
+          "seccion": "Regla 13 – Tiros libres"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "64",
+          "seccion": "Regla 3 – Los jugadores"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 3 – Los jugadores\nembargo, el partido no deberá reanudarse una vez que el balón no esté en \njuego si un equipo no cuenta con siete jugadores como mínimo.\n Si las reglas de la competición estipulan que se debe dar a conocer el nombre de \ntodos los jugadores y suplentes antes del saque inicial y un equipo comienza el \nencuentro con menos de once jugadores, únicamente los jugadores y suplentes que \nfiguren en la alineación inicial podrán participar en el partido en cuanto lleguen.\n2. Número de sustituciones",
+        "Regla 3 – Los jugadores\n63\nLos jugadores\n1. Número de jugadores\n Disputarán los partidos dos equipos, cada uno de ellos con un máximo de once \njugadores, uno de los cuales será el guardameta. El partido no comenzará ni \nproseguirá si uno de los equipos dispone de menos de siete jugadores.\n Si uno de los equipos acabara con menos de siete jugadores debido a que uno o \nvarios de ellos hayan abandonado voluntariamente el terreno de juego, el \nárbitro no estará obligado a detener el juego y se podrá otorgar ventaja. Sin",
+        "Regla 8 – Inicio y reanudación del juego\n107\n•  El resto de jugadores (de ambos equipos) deberán mantener una distancia \nmínima de 4 m (4.5 yd) con respecto al balón hasta que este esté en juego.\nEl balón estará en juego en el momento en que toque el suelo.\nInfracciones y sanciones\nSe repetirá el balón a tierra si este:\n• toca a un jugador antes de tocar el suelo;\n•  sale del terreno de juego después de tocar el suelo sin haber tocado a un \njugador.\n Si tras un balón a tierra, este entrara en la portería sin tocar como mínimo a",
+        "Regla 13 – Tiros libres\namonestado por retrasar la reanudación del juego.\n Si, durante la ejecución de un tiro libre, algún jugador del equipo atacante \nestuviera situado a menos de 1 m (1 yd) de la «barrera» formada por tres o \nmás jugadores del equipo defensor, se concederá un libre indirecto. \n Si el equipo que defiende ejecutara un tiro libre dentro de su área penal y algún \nadversario se halla todavía dentro de dicha área debido a que no tuvo tiempo",
+        "Regla 3 – Los jugadores\n(incluso si los equipos ya han hecho uso de todas las sustituciones \npermitidas).\nOtros partidos\n En los partidos de selecciones nacionales absolutas, se podrá designar un \nmáximo de quince suplentes, de los cuales se podrán utilizar un máximo de \nocho, a menos que los dos equipos acuerden que se utilicen más sustituciones, \nhasta un máximo de once, en cuyo caso se deberá informar al árbitro antes del \npartido. Se aplicarán las restricciones y procedimientos en vigor relacionados"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4484,
+      "tiempo_s": 1.8,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cuánto dura un partido de fútbol?",
+    "referencia": "El partido se desarrolla en dos periodos iguales de 45 minutos cada uno, que solo pueden reducirse por acuerdo entre el árbitro y los dos equipos antes del comienzo, si lo permite el reglamento de la competición (Regla 7, pág. 101).",
+    "fijo": {
+      "respuesta": "Un partido de fútbol se juega en **dos periodos iguales de 45 minutos cada uno**, lo que da una duración reglamentaria de **90 minutos** en total. A esos 90 minutos se le pueden añadir minutos de tiempo adicional para compensar el tiempo perdido por sustituciones, lesiones, celebraciones de goles, revisiones del VAR, pausas médicas, entre otros conceptos (p. ej. “pérdida deliberada de tiempo”, “celebraciones de goles”, etc.)【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 101】.",
+      "contextos": [
+        "Regla 7 – La duración del partido\n101\nReglas de Juego 2026/27   |  Regla 7  |  La duración del partido\n1. Periodos de juego  \n El partido se desarrollará en dos periodos iguales de 45 minutos cada uno, los \ncuales pueden reducirse únicamente por acuerdo entre el árbitro y los dos \nequipos antes del comienzo del partido —siempre y cuando esté permitido por \nel reglamento de la competición—.\n2. Pausa del medio tiempo  \n Los jugadores tendrán derecho a una pausa en el descanso de medio tiempo no",
+        "Regla 7 – La duración del partido\n• celebraciones de goles; \n•  cualquier otro motivo, lo que incluye todo retraso significativo al reanudarse \nel juego (p. ej. debido a una interferencia causada por un agente externo).\nLa duración del partido\n7",
+        "Observaciones y adaptaciones\njuego (excepto en los casos explicados a continuación) y permanecer fuera  \nde él hasta que transcurra un minuto  (de cronómetro) desde el momento en \nel que se haya reanudado el juego.\nPeriodo de un minuto fuera del terreno de juego\n•   El periodo de un minuto  fuera del terreno de juego empieza a contar en el \nmomento en el que se reanuda el juego.\n•  El periodo de un minuto  se calcula con un cronómetro y lo determina el \nárbitro, a quien pueden asistir otros miembros del equipo arbitral.",
+        "Regla 8 – Inicio y reanudación del juego\n107\n•  El resto de jugadores (de ambos equipos) deberán mantener una distancia \nmínima de 4 m (4.5 yd) con respecto al balón hasta que este esté en juego.\nEl balón estará en juego en el momento en que toque el suelo.\nInfracciones y sanciones\nSe repetirá el balón a tierra si este:\n• toca a un jugador antes de tocar el suelo;\n•  sale del terreno de juego después de tocar el suelo sin haber tocado a un \njugador.\n Si tras un balón a tierra, este entrara en la portería sin tocar como mínimo a",
+        "Regla 7 – La duración del partido\nperdido debido a:\n• sustituciones;\n• atención o retirada de jugadores lesionados;\n• pérdida deliberada de tiempo;\n• sanciones disciplinarias;\n•  pausas por motivos médicos autorizadas por el reglamento de la \ncompetición, es decir, las pausas de rehidratación (no superiores a un \nminuto) y las pausas de refresco (entre 90 segundos y tres minutos);\n• retrasos originados por los chequeos y revisiones del VAR;\n• celebraciones de goles;",
+        "Observaciones y adaptaciones\ninfracciones.\n•  La duración de la exclusión temporal deberá estar comprendida entre el 10 y \nel 15 % del tiempo de juego total (p. ej. 10 minutos en un partido de 90 \nminutos; 8 minutos en uno de 80 minutos).\n•  El periodo de exclusión temporal comenzará cuando se reanude el juego una \nvez que el jugador haya abandonado el campo.\n•  El árbitro deberá incluir en el periodo de exclusión temporal todo tiempo \n«perdido» por interrupciones que darán pie a conceder «tiempo adicional» al",
+        "Regla 1 – El terreno de juego\nmínimo 45 m (50 yd)  \nmáximo 90 m (100 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n4. Dimensiones en partidos internacionales\n•  Longitud (línea de banda):  \nmínimo 100 m (110 yd)  \nmáximo 110 m (120 yd)\n•   Longitud (línea de meta):  \nmínimo 64 m (70 yd)  \nmáximo 75 m (80 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n5. Área de meta",
+        "Cambios en las Reglas 2026/27\n•  Los jugadores sustituidos tendrán que salir del terreno de juego en un plazo \nde diez segundos como máximo. Si se supera este límite de tiempo, el \nsuplente no podrá entrar en el campo hasta que, a partir de que haya \ntranscurrido un minuto, se detenga el juego por primera vez.\n•  Aviso:  \nLas pautas para la disposición de que solo el capitán pueda acercarse al \nárbitro será un protocolo obligatorio en todas las competiciones a partir del \n1 de julio de 2027.",
+        "Regla 17 – El saque de esquina\nmás de ocho segundos;\n •  a un jugador por retrasar la ejecución de un saque de meta de su equipo.\n Se podrá marcar gol directamente de saque de esquina, pero solo contra el \nequipo adversario; si el balón entrara directamente en la portería del ejecutor \ndel saque, se concederá saque de esquina al adversario.\n1. Procedimiento\n•  El balón se colocará en el cuadrante de esquina más cercano al lugar por el \nque cruzó la línea de meta o al que ocupaba el guardameta cuando se le \nsancionó.",
+        "Regla 3 – Los jugadores\nhaya transcurrido un minuto desde la reanudación.\nReglas de Juego 2026/27   |  Regla 3  |  Los jugadores"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1936,
+      "tiempo_s": 1.26
+    },
+    "agente": {
+      "respuesta": "**Según las Reglas de Juego 2026/27:**  \n\nUn partido se juega en **dos periodos iguales de 45 minutos cada uno** (total 90 minutos). Los periodos pueden reducirse solo por acuerdo entre el árbitro y los dos equipos antes del inicio, siempre que lo permita el reglamento de la competición.  (Fuente: Regla 7 – La duración del partido, Reglas‑de‑Juego‑2026‑27‑IFAB.pdf, pág. 101)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "duración del partido de fútbol"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "101",
+          "seccion": "Regla 7 – La duración del partido"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "211",
+          "seccion": "Glosario"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "67",
+          "seccion": "Regla 3 – Los jugadores"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 7 – La duración del partido\n101\nReglas de Juego 2026/27   |  Regla 7  |  La duración del partido\n1. Periodos de juego  \n El partido se desarrollará en dos periodos iguales de 45 minutos cada uno, los \ncuales pueden reducirse únicamente por acuerdo entre el árbitro y los dos \nequipos antes del comienzo del partido —siempre y cuando esté permitido por \nel reglamento de la competición—.\n2. Pausa del medio tiempo  \n Los jugadores tendrán derecho a una pausa en el descanso de medio tiempo no",
+        "Regla 7 – La duración del partido\n• celebraciones de goles; \n•  cualquier otro motivo, lo que incluye todo retraso significativo al reanudarse \nel juego (p. ej. debido a una interferencia causada por un agente externo).\nLa duración del partido\n7",
+        "Regla 7 – La duración del partido\nperdido debido a:\n• sustituciones;\n• atención o retirada de jugadores lesionados;\n• pérdida deliberada de tiempo;\n• sanciones disciplinarias;\n•  pausas por motivos médicos autorizadas por el reglamento de la \ncompetición, es decir, las pausas de rehidratación (no superiores a un \nminuto) y las pausas de refresco (entre 90 segundos y tres minutos);\n• retrasos originados por los chequeos y revisiones del VAR;\n• celebraciones de goles;",
+        "Glosario\nperfecta comprensión.\nReglas de Juego 2026/27   |  Glosario\nEntidades futbolísticas",
+        "Regla 3 – Los jugadores\nhaya transcurrido un minuto desde la reanudación.\nReglas de Juego 2026/27   |  Regla 3  |  Los jugadores"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4263,
+      "tiempo_s": 2.02,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cuánto tiempo puede durar el descanso del medio tiempo?",
+    "referencia": "Los jugadores tienen derecho a una pausa en el descanso del medio tiempo no superior a 15 minutos (Regla 7, pág. 101).",
+    "fijo": {
+      "respuesta": "El descanso del medio tiempo puede durar **como máximo 15 minutos**; cualquier ampliación sólo podrá realizarse con el permiso del árbitro y conforme a lo que establezca el reglamento de la competición (Regla 7 – La duración del partido) (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 101).",
+      "contextos": [
+        "Glosario\n218\nP\nPausa de refresco (→ \"cooling\" break)  \nPausa de 90 segundos a un máximo de tres minutos que, en interés de los \njugadores y por su salud, podrá estar contemplada en el reglamento de la \ncompetición si se dan determinadas condiciones meteorológicas (temperatura y \nhumedad altas) para que descienda la temperatura corporal. Estas pausas no \ndeben confundirse con las de rehidratación.\nPausa de rehidratación (→ \"drinks\" break)",
+        "Regla 7 – La duración del partido\n101\nReglas de Juego 2026/27   |  Regla 7  |  La duración del partido\n1. Periodos de juego  \n El partido se desarrollará en dos periodos iguales de 45 minutos cada uno, los \ncuales pueden reducirse únicamente por acuerdo entre el árbitro y los dos \nequipos antes del comienzo del partido —siempre y cuando esté permitido por \nel reglamento de la competición—.\n2. Pausa del medio tiempo  \n Los jugadores tendrán derecho a una pausa en el descanso de medio tiempo no",
+        "Regla 7 – La duración del partido\nsuperior a 15 minutos; también se permite una pausa breve para beber (no \nsuperior a un minuto) tras el primer periodo del tiempo suplementario. El \nreglamento de la competición deberá estipular claramente la duración de la \npausa del medio tiempo, la cual solamente podrá modificarse con el permiso \ndel árbitro.\n3. Recuperación del tiempo perdido\n El árbitro podrá prolongar cada periodo para recuperar el tiempo de juego \nperdido debido a:\n• sustituciones;",
+        "Observaciones y adaptaciones\njuego (excepto en los casos explicados a continuación) y permanecer fuera  \nde él hasta que transcurra un minuto  (de cronómetro) desde el momento en \nel que se haya reanudado el juego.\nPeriodo de un minuto fuera del terreno de juego\n•   El periodo de un minuto  fuera del terreno de juego empieza a contar en el \nmomento en el que se reanuda el juego.\n•  El periodo de un minuto  se calcula con un cronómetro y lo determina el \nárbitro, a quien pueden asistir otros miembros del equipo arbitral.",
+        "Observaciones y adaptaciones\ninfracciones.\n•  La duración de la exclusión temporal deberá estar comprendida entre el 10 y \nel 15 % del tiempo de juego total (p. ej. 10 minutos en un partido de 90 \nminutos; 8 minutos en uno de 80 minutos).\n•  El periodo de exclusión temporal comenzará cuando se reanude el juego una \nvez que el jugador haya abandonado el campo.\n•  El árbitro deberá incluir en el periodo de exclusión temporal todo tiempo \n«perdido» por interrupciones que darán pie a conceder «tiempo adicional» al",
+        "Observaciones y adaptaciones\nsegunda mitad; este principio se aplica a:\n •  el periodo entre el final del tiempo reglamentario y el comienzo de la \nprórroga;\n • durante el descanso de la prórroga;\n • el periodo entre el final de la prórroga y la tanda de penales.\n Un jugador no tiene la obligación de salir del terreno de juego durante un \nminuto si:\n•  el jugador: \n •  indica que no requiere atención médica, salvo que el juego se haya \ninterrumpido por la lesión;",
+        "Glosario\nPausa de rehidratación (→ \"drinks\" break) \nInterrupción del juego no superior a un minuto que podrá estar contemplada en \nel reglamento de la competición para que los jugadores se rehidraten. Estas \npausas no deben confundirse con las pausas de refresco.\nPosición de reanudación (→ restart position) \nUbicación de un jugador en el momento de la reanudación marcada por la \nposición de los pies o de la parte del cuerpo en contacto con el suelo, con",
+        "Regla 7 – La duración del partido\n102\n El cuarto árbitro indicará el tiempo mínimo que deberá añadirse, si bien el \nárbitro tomará la decisión final al respecto. Además, este podrá aumentar el \ntiempo añadido pero no reducirlo.\n El árbitro no podrá compensar un error de cronometraje del primer periodo \ncambiando la duración del segundo periodo.\n4. Tiro penal\n En caso de que se deba ejecutar o repetir un penal al final de un periodo, se \nprolongará este hasta que el penal se haya completado.\n5. Partido suspendido definitivamente",
+        "Regla 3 – Los jugadores\nexcepto si el cambio se produjo durante el descanso del medio tiempo \n(incluido el descanso del tiempo suplementario) o el periodo comprendido \nentre el final del partido y el inicio del tiempo suplementario o la tanda de \npenales.\n Salvo que no fuera posible cumplir el plazo por razones de seguridad o por \nlesión, si el jugador sustituido no saliera del terreno de juego en el tiempo \nmáximo exigido de diez segundos:\n•  el jugador sustituido deberá salir del terreno de juego de todas formas;",
+        "Regla 3 – Los jugadores\nhaya transcurrido un minuto desde la reanudación.\nReglas de Juego 2026/27   |  Regla 3  |  Los jugadores"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1931,
+      "tiempo_s": 1.47
+    },
+    "agente": {
+      "respuesta": "Según las Reglas de Juego 2026/27:\n\n- **Regla 7 – La duración del partido** establece que los jugadores tienen derecho a una pausa en el descanso de medio tiempo **no superior a 15 minutos**. El reglamento de la competición debe especificar claramente la duración de esa pausa, y solo podrá modificarse con el permiso del árbitro. (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 101, sección “Regla 7 – La duración del partido”)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "duración del descanso del medio tiempo"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "101",
+          "seccion": "Regla 7 – La duración del partido"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "218",
+          "seccion": "Glosario"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "25",
+          "seccion": "Observaciones y adaptaciones"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "35",
+          "seccion": "Observaciones y adaptaciones"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 7 – La duración del partido\nsuperior a 15 minutos; también se permite una pausa breve para beber (no \nsuperior a un minuto) tras el primer periodo del tiempo suplementario. El \nreglamento de la competición deberá estipular claramente la duración de la \npausa del medio tiempo, la cual solamente podrá modificarse con el permiso \ndel árbitro.\n3. Recuperación del tiempo perdido\n El árbitro podrá prolongar cada periodo para recuperar el tiempo de juego \nperdido debido a:\n• sustituciones;",
+        "Glosario\n218\nP\nPausa de refresco (→ \"cooling\" break)  \nPausa de 90 segundos a un máximo de tres minutos que, en interés de los \njugadores y por su salud, podrá estar contemplada en el reglamento de la \ncompetición si se dan determinadas condiciones meteorológicas (temperatura y \nhumedad altas) para que descienda la temperatura corporal. Estas pausas no \ndeben confundirse con las de rehidratación.\nPausa de rehidratación (→ \"drinks\" break)",
+        "Regla 7 – La duración del partido\n101\nReglas de Juego 2026/27   |  Regla 7  |  La duración del partido\n1. Periodos de juego  \n El partido se desarrollará en dos periodos iguales de 45 minutos cada uno, los \ncuales pueden reducirse únicamente por acuerdo entre el árbitro y los dos \nequipos antes del comienzo del partido —siempre y cuando esté permitido por \nel reglamento de la competición—.\n2. Pausa del medio tiempo  \n Los jugadores tendrán derecho a una pausa en el descanso de medio tiempo no",
+        "Observaciones y adaptaciones\njuego (excepto en los casos explicados a continuación) y permanecer fuera  \nde él hasta que transcurra un minuto  (de cronómetro) desde el momento en \nel que se haya reanudado el juego.\nPeriodo de un minuto fuera del terreno de juego\n•   El periodo de un minuto  fuera del terreno de juego empieza a contar en el \nmomento en el que se reanuda el juego.\n•  El periodo de un minuto  se calcula con un cronómetro y lo determina el \nárbitro, a quien pueden asistir otros miembros del equipo arbitral.",
+        "Observaciones y adaptaciones\ninfracciones.\n•  La duración de la exclusión temporal deberá estar comprendida entre el 10 y \nel 15 % del tiempo de juego total (p. ej. 10 minutos en un partido de 90 \nminutos; 8 minutos en uno de 80 minutos).\n•  El periodo de exclusión temporal comenzará cuando se reanude el juego una \nvez que el jugador haya abandonado el campo.\n•  El árbitro deberá incluir en el periodo de exclusión temporal todo tiempo \n«perdido» por interrupciones que darán pie a conceder «tiempo adicional» al"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4616,
+      "tiempo_s": 2.67,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cuándo se considera que un jugador está en posición de fuera de juego?",
+    "referencia": "Un jugador está en posición de fuera de juego cuando alguna parte de su cabeza, tronco o pierna (pie incluido) está en la mitad del terreno del adversario (excluida la línea central) y más cerca de la línea de meta contraria que el balón y que el penúltimo adversario. Estar en posición de fuera de juego no es infracción por sí mismo (Regla 11, pág. 117).",
+    "fijo": {
+      "respuesta": "**Regla 11 – El fuera de juego**\n\nSe considera que un jugador está en posición de fuera de juego cuando, en el momento en que el balón es jugado o tocado por un compañero, **cualquier parte de su cabeza, tronco o pierna (pie incluido) está total o parcialmente**:\n\n1. **En la mitad del terreno de juego del adversario** (excluyendo la línea central); y  \n2. **Más cerca de la línea de meta contraria que el balón y el penúltimo adversario**.  \n\nEn la determinación de la posición no se tienen en cuenta las manos ni los brazos del jugador (ni del guardameta) y el límite superior del brazo coincide con el punto inferior de la axila【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 117】.\n\nAdemás, **no se considerará fuera de juego** a un jugador que se encuentre a la misma altura que:\n\n- el penúltimo adversario, o  \n- los dos últimos adversarios【Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 117】.",
+      "contextos": [
+        "Regla 11 – El fuera de juego\npunto inferior de la axila. \n No estará en fuera de juego aquel jugador que se encuentre a la misma altura que:\n• el penúltimo adversario o\n• los dos últimos adversarios.\n2. Infracción por fuera de juego\n Únicamente se sancionará a un jugador en posición de fuera de juego en el \nmomento en que el balón toca o es jugado* por un compañero de equipo si \nllega a participar en el juego de forma activa de una de las siguientes maneras:",
+        "Regla 11 – El fuera de juego\n117\nReglas de Juego 2026/27   |  Regla 11  |  El fuera de juego\n1. Posición de fuera de juego\n El hecho de estar en posición de fuera de juego no constituye infracción. Se \nconsidera que un jugador está en posición de fuera de juego cuando:\n•  su cabeza, tronco o pierna (pie incluido) se encuentran, total o parcialmente, \nen la mitad del terreno de juego del adversario (excluyendo la línea central) y\n•  su cabeza, tronco o pierna (pie incluido) se encuentran, total o parcialmente,",
+        "Regla 11 – El fuera de juego\nde que se detenga de nuevo el juego, o antes que el equipo defensor haya \njugado el balón hacia la línea central y se encuentre fuera de su área penal, se \nconsiderará que está situado en la línea de meta a efectos de determinar el \nfuera de juego. Se amonestará a todo jugador que salga premeditadamente del \nterreno de juego, vuelva a entrar sin la autorización del árbitro y no sea \nsancionado por fuera de juego pero obtenga una ventaja por ello.",
+        "Regla 11 – El fuera de juego\nSi un jugador del equipo atacante permaneciera inmóvil entre los postes y \ndentro de la portería adversaria en el preciso momento en el que el balón entra \nen esta, se concederá el gol, a menos que el jugador cometiera una infracción \npor fuera de juego o viole la Regla 12, en cuyo caso el juego se reanudará con \nun libre directo o indirecto.",
+        "Observaciones y adaptaciones\ncuando, entre otras situaciones:\n •  una lesión impida claramente que el jugador salga del terreno de juego en \ndicho límite de tiempo;\n •  un jugador no pueda salir del terreno de juego por el punto más cercano \nde la línea delimitadora del campo, por razones de seguridad.\n Como la finalidad de la cuenta atrás es impedir las pérdidas de tiempo y \nmantener el ritmo del partido, si el jugador sustituido se encuentra muy cerca",
+        "Glosario\nexcepción de lo estipulado en la «Regla 11. El fuera de juego» ; si el jugador está \nen el aire, su posición se determina por la proyección de la posición que \ntendrían los pies si estuvieran en contacto con el suelo.\nPrórroga (→ extra time)  \nV. tiempo suplementario.\nR\nReanudación (→ restart)   \nCualquiera de las maneras de retomar el juego tras haber sido detenido.\nRevisión (→ review)  \nAnálisis y valoración final por parte del árbitro principal de las imágenes de",
+        "Regla 11 – El fuera de juego\nmás cerca de la línea de meta contraria que el balón y el penúltimo adversario.\n A la hora de determinar si un jugador está en posición de fuera de juego, no se \ntendrán en consideración las manos ni los brazos de los jugadores, tampoco en \nel caso de los guardametas. Con el fin de determinar con claridad las \ninfracciones por fuera de juego, el límite superior del brazo coincide con el \npunto inferior de la axila.",
+        "Directrices prácticas para los miembros del equipo arbitral\n250\nUn jugador en posición de fuera de juego  (A) podrá ser sancionado antes de que \njuegue o toque el balón si, a juicio del árbitro, ningún otro compañero en posición \ncorrecta pudiera jugarlo.\nUn atacante  en posición de fuera de juego  (A) corre hacia el balón, a la vez que \nuno de sus compañeros, situado en posición correcta  (B), corre también hacia el \nbalón y acaba jugándolo. Dado que el jugador (A) no llega a tocar el balón, no se le \npuede señalar fuera de juego.\nGuardameta (GM)",
+        "Observaciones y adaptaciones\n•  Se obliga al jugador de campo a que permanezca fuera del terreno de juego \ndurante un minuto  tras la reanudación del partido, si se producen una o más \nde las siguientes situaciones:\n •  el partido se ha interrumpido  porque el jugador ha sufrido o se \nsospecha que ha sufrido una lesión;\n •  el árbitro ha indicado  al cuerpo médico que entre  en el terreno de \njuego;",
+        "Regla 11 – El fuera de juego\nequipo defensor haya jugado el balón hacia la línea central y se encuentre fuera \nde su área penal. Si el defensor ha abandonado premeditadamente el terreno de \njuego, deberá ser amonestado en cuanto deje de estar en juego el balón.\n Los jugadores del equipo atacante podrán salir del terreno de juego o \npermanecer fuera de él para no participar de forma activa en el juego. Si un \natacante volviera a entrar por la línea de meta y participara en la jugada antes"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 2331,
+      "tiempo_s": 2.21
+    },
+    "agente": {
+      "respuesta": "**Según las Reglas de Juego:**  \n\nUn jugador está en posición de fuera de juego cuando, en el momento en que el balón es jugado o tocado por un compañero, **su cabeza, tronco o pierna (pie incluido) se encuentran total o parcialmente en la mitad del terreno del adversario (excluyendo la línea central) y, al mismo tiempo, está más cerca de la línea de meta contraria que el balón y que el penúltimo adversario** (o que los dos últimos adversarios). No se considerará fuera de juego si el jugador está a la misma altura que el penúltimo adversario o que los dos últimos adversarios. (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 117, Regla 11 – El fuera de juego)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "posición de fuera de juego cuándo se considera"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "117",
+          "seccion": "Regla 11 – El fuera de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "218",
+          "seccion": "Glosario"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "209",
+          "seccion": "Cambios en las Reglas 2026/27"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "23",
+          "seccion": "Observaciones y adaptaciones"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 11 – El fuera de juego\n117\nReglas de Juego 2026/27   |  Regla 11  |  El fuera de juego\n1. Posición de fuera de juego\n El hecho de estar en posición de fuera de juego no constituye infracción. Se \nconsidera que un jugador está en posición de fuera de juego cuando:\n•  su cabeza, tronco o pierna (pie incluido) se encuentran, total o parcialmente, \nen la mitad del terreno de juego del adversario (excluyendo la línea central) y\n•  su cabeza, tronco o pierna (pie incluido) se encuentran, total o parcialmente,",
+        "Regla 11 – El fuera de juego\npunto inferior de la axila. \n No estará en fuera de juego aquel jugador que se encuentre a la misma altura que:\n• el penúltimo adversario o\n• los dos últimos adversarios.\n2. Infracción por fuera de juego\n Únicamente se sancionará a un jugador en posición de fuera de juego en el \nmomento en que el balón toca o es jugado* por un compañero de equipo si \nllega a participar en el juego de forma activa de una de las siguientes maneras:",
+        "Glosario\nexcepción de lo estipulado en la «Regla 11. El fuera de juego» ; si el jugador está \nen el aire, su posición se determina por la proyección de la posición que \ntendrían los pies si estuvieran en contacto con el suelo.\nPrórroga (→ extra time)  \nV. tiempo suplementario.\nR\nReanudación (→ restart)   \nCualquiera de las maneras de retomar el juego tras haber sido detenido.\nRevisión (→ review)  \nAnálisis y valoración final por parte del árbitro principal de las imágenes de",
+        "Cambios en las Reglas 2026/27\nposición de los pies o de la parte del cuerpo en contacto con el suelo, con \nexcepción de lo estipulado en la «Regla 11. El fuera de juego» ; si el jugador está \nen el aire, su posición se determina por la proyección de la posición que tendrían \nlos pies si estuvieran en contacto con el suelo.\nTecnología semiautomatizada para la detección del fuera de juego\nTecnología que envía a los árbitros asistentes de vídeo (VAR) información al",
+        "Observaciones y adaptaciones\ncuando, entre otras situaciones:\n •  una lesión impida claramente que el jugador salga del terreno de juego en \ndicho límite de tiempo;\n •  un jugador no pueda salir del terreno de juego por el punto más cercano \nde la línea delimitadora del campo, por razones de seguridad.\n Como la finalidad de la cuenta atrás es impedir las pérdidas de tiempo y \nmantener el ritmo del partido, si el jugador sustituido se encuentra muy cerca"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4567,
+      "tiempo_s": 2.59,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Hay fuera de juego si el jugador recibe el balón directamente de un saque de banda?",
+    "referencia": "No. No existe infracción de fuera de juego cuando un jugador recibe el balón directamente de un saque de meta, un saque de banda o un saque de esquina (Regla 11, pág. 119).",
+    "fijo": {
+      "respuesta": "No, no se sanciona fuera de juego cuando un jugador recibe el balón directamente de un saque de banda. Según la Regla 11 – El fuera de juego, “No existirá infracción por fuera de juego cuando un jugador reciba un balón que procede directamente de … un saque de banda” (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 119).",
+      "contextos": [
+        "Regla 12 – Faltas y conducta incorrecta\nmientras el balón se halle a distancia de juego y el jugador no retenga a su \nadversario con los brazos o el cuerpo. Si el balón se hallara a distancia de juego, \nel adversario puede cargar contra el jugador, dentro de los márgenes \npermitidos por las Reglas de Juego.\n3. Saque de esquina\n Se concederá un saque de esquina si un guardameta, dentro de su propia área, \ncontrolara el balón con las manos o los brazos durante más de ocho segundos",
+        "Regla 3 – Los jugadores\n69\n Si el balón va a entrar en la portería y la interferencia no impide que un \njugador del equipo defensor juegue el balón, se concederá gol si el balón entra \nen la portería (incluso si se produjo un contacto con el balón), a menos que la \ninterferencia fuese causada por un miembro del equipo atacante.\n8. Jugador fuera del terreno de juego\n Si un jugador que requiere la autorización del árbitro para regresar al terreno \nde juego vuelve a entrar sin su permiso, el árbitro deberá:",
+        "Regla 16 – El saque de meta\n158\n Si, una vez que el balón esté en juego, el jugador que ejecutó el saque volviera a \ntocarlo antes de que lo toque otro jugador, se concederá un libre indirecto; en \ncaso de que cometa una infracción por mano:\n• se concederá un libre directo;\n•  se concederá un tiro penal si la infracción se cometió dentro de su área \npenal, a menos que fuera el guardameta del equipo defensor, en cuyo caso se \nconcederá un tiro libre indirecto.",
+        "Regla 9 – Balón en juego\ntécnico, suplente, jugador sustituido o expulsado o jugador temporalmente fuera \ndel terreno de juego (por lesión, para ajustarse el equipamiento, etc.) toca un balón \nque está claramente a punto de salir del campo, la acción se sancionará con un tiro \nlibre indirecto. No habrá sanción disciplinaria.\nBalón en juego \n9",
+        "Regla 11 – El fuera de juego\nuna «salvada» por parte de un adversario.\n *Jugar «voluntariamente» el balón (excluida la mano voluntaria) implica que el \njugador tiene la posibilidad de controlarlo y:\n• pasar a un compañero;\n• recuperar la posesión, o\n• despejar, ya sea con el pie o de cabeza.\n El hecho de que el pase, el intento de recuperar la posesión o el despeje del \njugador sea impreciso o no logre su objetivo no invalida la «voluntariedad» de la \nacción.",
+        "Regla 13 – Tiros libres\nde salir, el árbitro permitirá que el juego continúe. Si un adversario que se \nencuentra en el área penal cuando se ejecuta un tiro libre, o que entra en ella \nantes de que el balón esté en juego, tocara o disputara el balón antes de que \neste esté en juego, se repetirá el tiro libre.\n Si, una vez que el balón esté en juego, el ejecutor del tiro libre volviera a tocar \nel balón antes de que lo toque otro jugador, se concederá libre indirecto, o en",
+        "Regla 11 – El fuera de juego\nfalta.\n3. Situaciones que no constituyen infracción\n No existirá infracción por fuera de juego cuando un jugador reciba un balón \nque procede directamente de:\n• un saque de meta;\n• un saque de banda;\n• un saque de esquina.\nReglas de Juego 2026/27   |  Regla 11  |  El fuera de juego",
+        "Regla 8 – Inicio y reanudación del juego\ncontrario, dejará caer el balón ante un jugador del equipo que lo tocó por \núltima vez. El balón deberá tocar el suelo en el lugar en el que se \nencontraba cuando se detuvo el juego , a menos que hubiera impactado en \nun árbitro o en un agente externo, en cuyo caso se dejará caer en el lugar \nen el que se produjo la interferencia o el contacto .",
+        "Regla 15 – El saque de banda\ndesde el lugar en que el balón haya salido del terreno de juego.\n Todos los adversarios deberán permanecer a una distancia mínima de 2 m  \n(2 yd) del lugar de la línea de banda donde se vaya a ejecutar el saque.\n El balón estará en juego tan pronto como haya entrado en el terreno de juego. \nSi el balón tocara el suelo antes de entrar en el terreno de juego, se repetirá el \nsaque de banda desde la misma posición. Si no se ejecutase correctamente, \nsacará de banda el equipo adversario.",
+        "Regla 12 – Faltas y conducta incorrecta\nseñalará tiro penal).\n Si un jugador que se halla dentro o fuera del terreno de juego lanzara con la \nmano o el pie un objeto (distinto al balón con el que se está jugando el partido) \ncontra un adversario, o si lanzara, con la mano o el pie, un objeto (incluyendo \nun balón) contra un suplente, jugador sustituido, jugador expulsado o miembro \ndel cuerpo técnico del equipo contrario, o contra un miembro del equipo"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1909,
+      "tiempo_s": 1.19
+    },
+    "agente": {
+      "respuesta": "No. Según la Regla 11 – El fuera de juego, **no existirá infracción por fuera de juego cuando un jugador reciba el balón que procede directamente de un saque de banda** (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 119).",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "offside throw-in directly receive ball offside rule"
+          }
+        },
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "offside throw-in no offside"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "118",
+          "seccion": "Regla 11 – El fuera de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "119",
+          "seccion": "Regla 11 – El fuera de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "117",
+          "seccion": "Regla 11 – El fuera de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "249",
+          "seccion": "Directrices prácticas para los miembros del equipo arbitral"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "137",
+          "seccion": "Regla 12 – Faltas y conducta incorrecta"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "142",
+          "seccion": "Regla 13 – Tiros libres"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 11 – El fuera de juego\nun adversario cuando el balón:\n •  haya sido desviado o haya rebotado en un poste, en el travesaño, en un \nmiembro del equipo arbitral o en un adversario;\n • haya sido «salvado» por un adversario.\n Se considerará que un jugador en posición de fuera de juego no ha sacado \nventaja de dicha posición cuando reciba el balón de un adversario que juega \nvoluntariamente* el balón, incluida la mano voluntaria, a menos que se trate de \nuna «salvada» por parte de un adversario.",
+        "Regla 11 – El fuera de juego\nhacia el balón con la intención de jugarlo y es objeto de una falta antes de \njugar o intentar jugar el balón, o disputárselo a un adversario, se penalizará \ndicha falta por haberse cometido antes de la infracción por fuera de juego;\n•  si se comete una infracción contra un jugador en posición de fuera de juego \nque ya está jugando o intentando jugar el balón, o disputándole el balón a un \nadversario, se penalizará la infracción por fuera de juego por ser previa a la \nfalta.",
+        "Regla 11 – El fuera de juego\n•  interfiriendo en el juego, al jugar o tocar un balón pasado o tocado por un \ncompañero;\n• interfiriendo en el juego de un adversario de una de las siguientes maneras:\n *Se tendrá en cuenta el primer punto de contacto en el momento de «jugar» o \n«tocar» el balón; sin embargo, cuando el guardameta lance el balón con la mano, \nse usará el último punto de contacto.11\nEl fuera de juego",
+        "Directrices prácticas para los miembros del equipo arbitral\n249\nUn atacante en posición de fuera de juego  (A), pero sin interferir en la evolución \nde adversario alguno, toca el balón.  El asistente levantará el banderín en el \nmomento en el que el jugador toque el balón.\nUn atacante en posición de fuera de juego  (A), pero sin interferir en la evolución \nde adversario alguno, no toca el balón.  No se le puede señalar fuera de juego.\n4. Fuera de juego\nGuardameta (GM)\nDefensor \nAtacante\nÁrbitro\nDesplazamiento del futbolista \nDesplazamiento del balón",
+        "Regla 12 – Faltas y conducta incorrecta\nseñalará tiro penal).\n Si un jugador que se halla dentro o fuera del terreno de juego lanzara con la \nmano o el pie un objeto (distinto al balón con el que se está jugando el partido) \ncontra un adversario, o si lanzara, con la mano o el pie, un objeto (incluyendo \nun balón) contra un suplente, jugador sustituido, jugador expulsado o miembro \ndel cuerpo técnico del equipo contrario, o contra un miembro del equipo",
+        "Regla 11 – El fuera de juego\npunto inferior de la axila. \n No estará en fuera de juego aquel jugador que se encuentre a la misma altura que:\n• el penúltimo adversario o\n• los dos últimos adversarios.\n2. Infracción por fuera de juego\n Únicamente se sancionará a un jugador en posición de fuera de juego en el \nmomento en que el balón toca o es jugado* por un compañero de equipo si \nllega a participar en el juego de forma activa de una de las siguientes maneras:",
+        "Regla 11 – El fuera de juego\n•  interfiriendo en el juego, al jugar o tocar un balón pasado o tocado por un \ncompañero;\n• interfiriendo en el juego de un adversario de una de las siguientes maneras:\n *Se tendrá en cuenta el primer punto de contacto en el momento de «jugar» o \n«tocar» el balón; sin embargo, cuando el guardameta lance el balón con la mano, \nse usará el último punto de contacto.11\nEl fuera de juego",
+        "Regla 11 – El fuera de juego\nfalta.\n3. Situaciones que no constituyen infracción\n No existirá infracción por fuera de juego cuando un jugador reciba un balón \nque procede directamente de:\n• un saque de meta;\n• un saque de banda;\n• un saque de esquina.\nReglas de Juego 2026/27   |  Regla 11  |  El fuera de juego",
+        "Regla 11 – El fuera de juego\nun adversario cuando el balón:\n •  haya sido desviado o haya rebotado en un poste, en el travesaño, en un \nmiembro del equipo arbitral o en un adversario;\n • haya sido «salvado» por un adversario.\n Se considerará que un jugador en posición de fuera de juego no ha sacado \nventaja de dicha posición cuando reciba el balón de un adversario que juega \nvoluntariamente* el balón, incluida la mano voluntaria, a menos que se trate de \nuna «salvada» por parte de un adversario.",
+        "Regla 13 – Tiros libres\nSe podrá ejecutar un tiro libre elevando el balón con un solo pie o con los dos \nsimultáneamente.\n Fintar durante la ejecución de un tiro libre para confundir a los adversarios \nforma parte del juego y está permitido.\n Si durante la ejecución correcta de un tiro libre el ejecutor golpeara \nvoluntariamente el balón contra un adversario con la intención de jugarlo de \nnuevo, pero no lo hiciera de manera imprudente ni temeraria, ni empleando"
+      ],
+      "llamadas_llm": 3,
+      "tokens_total": 8177,
+      "tiempo_s": 4.77,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Qué pasa si el guardameta controla el balón con las manos durante más de ocho segundos?",
+    "referencia": "Se concede un saque de esquina al equipo adversario si el guardameta, dentro de su propia área, controla el balón con las manos o los brazos durante más de ocho segundos antes de soltarlo (Regla 12, pág. 127).",
+    "fijo": {
+      "respuesta": "Si el guardameta controla el balón con las manos o los brazos dentro de su propia área durante más de ocho segundos, el árbitro sancionará al guardameta y concederá un **saque de esquina** al equipo contrario.  \n\n- La Regla 12 – *Faltas y conducta incorrecta* establece que “Se concederá un saque de esquina si un guardameta, dentro de su propia área, controlara el balón con las manos o los brazos durante más de ocho segundos” (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 127).  \n- El árbitro debe iniciar la cuenta de los ocho segundos cuando el guardameta controla el balón y, con la mano alzada, hará la cuenta regresiva de los últimos cinco segundos (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 128).  \n- En la sección de cambios de la temporada 2026/27 se explica que “El árbitro concederá un saque de esquina cuando sancione al guardameta por controlar el balón demasiado tiempo con las manos o los brazos” (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 200).  \n\nEn resumen, superar el límite de ocho segundos con el balón en manos dentro del área penal resulta en la pérdida del balón y la adjudicación de un tiro de esquina al rival.",
+      "contextos": [
+        "Regla 12 – Faltas y conducta incorrecta\nantes de soltarlo. Un guardameta controlará el balón con las manos o los \nbrazos cuando:",
+        "Regla 12 – Faltas y conducta incorrecta\nmientras el balón se halle a distancia de juego y el jugador no retenga a su \nadversario con los brazos o el cuerpo. Si el balón se hallara a distancia de juego, \nel adversario puede cargar contra el jugador, dentro de los márgenes \npermitidos por las Reglas de Juego.\n3. Saque de esquina\n Se concederá un saque de esquina si un guardameta, dentro de su propia área, \ncontrolara el balón con las manos o los brazos durante más de ocho segundos",
+        "Regla 12 – Faltas y conducta incorrecta\n128\n•  retenga el balón en las manos o en los brazos, o entre la mano o el brazo y \nuna superficie (p.ej., el suelo, su propio cuerpo);\n• sostenga el balón con las manos abiertas y extendidas;\n• haga rebotar el balón en el suelo o lo lance al aire.\n El árbitro decidirá cuándo el guardameta controla el balón y empiezan a contar \nlos ocho segundos de retención y, con la mano alzada, efectuará la cuenta atrás \nde los últimos cinco segundos.",
+        "Cambios en las Reglas 2026/27\nde ocho segundos;\n ·  a un jugador por retrasar la ejecución de un saque de meta de su equipo.\nExplicación\nEl árbitro concederá un saque de esquina cuando sancione al guardameta por \ncontrolar el balón demasiado tiempo con las manos o los brazos, o a un equipo \npor retrasar su saque de meta.",
+        "Regla 11 – El fuera de juego\n119\n• se puede prever la trayectoria del balón;\n•  el jugador tiene tiempo para coordinar sus movimientos, es decir, no realiza \nuna acción como un salto, extensión de las extremidades o movimiento \ninstintivo con el que consigue un ligero contacto o control;\n•  es más fácil jugar un balón que está sobre el terreno de juego que cuando \nestá en el aire.\n Una «salvada» es una acción de un jugador cuyo fin es detener o desviar el",
+        "Regla 2 – El balón\nllegar a tocar a un jugador, el travesaño o los postes durante la ejecución de un \npenal o de la tanda de penales, se volverá a ejecutar dicho lanzamiento.\n El balón no podrá ser reemplazado durante el transcurso del partido sin la \nautorización del árbitro.\n3. Balones adicionales\n Se podrán colocar balones adicionales alrededor del terreno de juego, siempre \nque cumplan las especificaciones estipuladas en la Regla 2 y su uso lo \nsupervise el árbitro.",
+        "Regla 9 – Balón en juego\n• el equipo en posesión del balón cambie.\n En todos los casos anteriores, el juego se reanudará con un balón a tierra.\n2. Balón en juego\n El balón estará en juego en el resto de situaciones en las que entre en contacto \ncon un miembro del equipo arbitral y cuando rebote en un poste o un \ntravesaño o en el banderín de esquina y permanezca en el terreno de juego.\n Si, sin intención de interferir de forma antirreglamentaria, un miembro del cuerpo",
+        "Regla 14 – El penal\n146\n En el momento del golpeo, el guardameta deberá tener al menos parte de un \npie en contacto directo con la línea de meta, sobre esta o por detrás de esta.\n El balón estará en juego en el momento en que se golpee y se desplace con \nclaridad.\n El ejecutor del penal no podrá jugar el balón por segunda vez hasta que lo haya \ntocado otro jugador.\n La ejecución del penal se completará cuando el balón deje de moverse, deje de",
+        "Regla 8 – Inicio y reanudación del juego\n106\n•  los adversarios del equipo que efectúe el saque deberán encontrarse como \nmínimo a 9.15 m (10 yd) del balón hasta que entre en juego;\n•  el balón se colocará en el punto central y no se podrá golpear con el pie hasta \nque el árbitro así lo indique;\n•  el árbitro dará la señal;\n•  el balón estará en juego en el momento en que lo golpee con el pie el jugador \nque haya efectuado el saque y se mueva con claridad;\n•  será posible marcar un gol directo al equipo adversario desde el saque",
+        "Regla 11 – El fuera de juego\nbalón, o intentar detener o desviarlo, cuando este va en dirección a la portería \no muy cerca de ella con cualquier parte del cuerpo excepto con las manos o los \nbrazos (a menos que se trate del guardameta en su propia área penal).\nEn este sentido, nótese lo siguiente:\n•  si un jugador que sale de una posición de fuera de juego o que se encuentra \nen dicha posición estuviera en la trayectoria de un adversario e interfiriera"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 2189,
+      "tiempo_s": 1.98
+    },
+    "agente": {
+      "respuesta": "**Según las Reglas de Juego 2026/27:**  \n\nSi el guardameta controla el balón con las manos o los brazos dentro de su propia área penal y lo retiene durante más de ocho segundos, el árbitro concede un **saque de esquina** al equipo contrario. El árbitro comienza a contar los ocho segundos cuando decide que el guardameta está controlando el balón y, con la mano alzada, realiza la cuenta regresiva de los últimos cinco segundos. (Fuente: Reglas‑de‑Juego‑2026‑27‑IFAB.pdf, pág. 127‑128, Regla 12 – Faltas y conducta incorrecta).",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "guardameta controla el balón con las manos más de ocho segundos sanción"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "127",
+          "seccion": "Regla 12 – Faltas y conducta incorrecta"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "128",
+          "seccion": "Regla 12 – Faltas y conducta incorrecta"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "146",
+          "seccion": "Regla 14 – El penal"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "219",
+          "seccion": "Glosario"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 12 – Faltas y conducta incorrecta\nantes de soltarlo. Un guardameta controlará el balón con las manos o los \nbrazos cuando:",
+        "Regla 12 – Faltas y conducta incorrecta\n128\n•  retenga el balón en las manos o en los brazos, o entre la mano o el brazo y \nuna superficie (p.ej., el suelo, su propio cuerpo);\n• sostenga el balón con las manos abiertas y extendidas;\n• haga rebotar el balón en el suelo o lo lance al aire.\n El árbitro decidirá cuándo el guardameta controla el balón y empiezan a contar \nlos ocho segundos de retención y, con la mano alzada, efectuará la cuenta atrás \nde los últimos cinco segundos.",
+        "Regla 12 – Faltas y conducta incorrecta\nmientras el balón se halle a distancia de juego y el jugador no retenga a su \nadversario con los brazos o el cuerpo. Si el balón se hallara a distancia de juego, \nel adversario puede cargar contra el jugador, dentro de los márgenes \npermitidos por las Reglas de Juego.\n3. Saque de esquina\n Se concederá un saque de esquina si un guardameta, dentro de su propia área, \ncontrolara el balón con las manos o los brazos durante más de ocho segundos",
+        "Regla 14 – El penal\n146\n En el momento del golpeo, el guardameta deberá tener al menos parte de un \npie en contacto directo con la línea de meta, sobre esta o por detrás de esta.\n El balón estará en juego en el momento en que se golpee y se desplace con \nclaridad.\n El ejecutor del penal no podrá jugar el balón por segunda vez hasta que lo haya \ntocado otro jugador.\n La ejecución del penal se completará cuando el balón deje de moverse, deje de",
+        "Glosario\n219\nS\nSalvada (→ save)   \nAcción realizada por un jugador con el fin de detener o desviar, o intentar \ndetener o desviar, un balón dirigido a la portería o muy cerca de ella con \ncualquier parte del cuerpo, excepto con las manos o los brazos (a menos que se \ntrate del guardameta en su propia área penal).\nSanción disciplinaria (→ disciplinary sanction)    \nAmonestación (tarjeta amarilla) o expulsión (tarjeta roja) con la que el árbitro \ncastiga una infracción de las Reglas de Juego."
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4610,
+      "tiempo_s": 2.85,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cuándo se concede un tiro penal?",
+    "referencia": "Se concede un tiro penal cuando un jugador comete una infracción sancionable con tiro libre directo dentro de su propia área penal o fuera del terreno de juego como parte del juego, según las Reglas 12 y 13. Se puede marcar gol directamente de penal (Regla 14, pág. 145).",
+    "fijo": {
+      "respuesta": "Un tiro penal se concede **cuando un jugador comete una infracción sancionable con tiro libre directo dentro de su área penal o fuera del terreno de juego como parte del juego** (según lo establecido en las Reglas 12 y 13). Esta situación da lugar a la adjudicación de un penal, que podrá terminar en gol directamente. (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 145 – Regla 14 – El penal)",
+      "contextos": [
+        "Regla 14 – El penal\nestar en juego o el árbitro detenga el juego por alguna infracción de las reglas.\n Con el fin de ejecutar y completar un tiro penal, se podrá conceder tiempo \nadicional al final de cada uno de los periodos de juego reglamentarios o del \ntiempo suplementario. Cuando se conceda tiempo adicional, el penal se \ncompletará cuando, una vez ejecutado el tiro, el balón deje de moverse, deje de \nestar en juego, sea jugado por un jugador (incluido el lanzador) aparte del",
+        "Cambios en las Reglas 2026/27\ndespués de ejecutar el tiro:\n ·  si el balón entrara en la portería directamente tras el lanzamiento, se \nrepetirá el penal;\n ·  si el balón no entrara en la portería directamente tras el lanzamiento, se \nconcederá un tiro libre indirecto;\n • (…)\n •  tanto el guardameta como el lanzador cometen una infracción al mismo \ntiempo: se amonestará al lanzador y se reanudará el juego con un tiro libre \nindirecto para el equipo defensor.\nTras el lanzamiento del penal:",
+        "Regla 14 – El penal\nrepetirá el penal;\n •  si el balón no entrara en la portería directamente tras el lanzamiento, se \nconcederá un tiro libre indirecto;",
+        "Regla 14 – El penal\nmedidas disciplinarias antes de volver a dar la señal de ejecución del penal.\n Si antes de que el balón esté en juego se produce alguna de las siguientes \nsituaciones, deberá procederse como se indica a continuación: \n•  si el lanzador del penal golpea el balón de manera involuntaria con los dos \npies simultáneamente o el balón le toca el pie o la pierna de apoyo justo \ndespués de ejecutar el tiro:\n •  si el balón entrara en la portería directamente tras el lanzamiento, se \nrepetirá el penal;",
+        "Regla 14 – El penal\n145\nReglas de Juego 2026/27   |  Regla 14  |  El penal\n Se concederá un tiro penal siempre que un jugador cometa una infracción \nsancionable con libre directo dentro de su área penal o fuera del terreno de \njuego como parte del juego, según se estipula en las Reglas 12 y 13.\nSe podrá marcar gol directamente de tiro penal.\n1. Procedimiento \n El balón deberá estar inmóvil y tocará en parte el centro del  punto penal",
+        "Regla 14 – El penal\nejecutor.\n• el guardameta comete una infracción:\n • si el balón entrara en la portería tras el lanzamiento , se concederá gol;\n •  si el balón no entrara en la portería o rebotara en el larguero o los postes, \núnicamente se repetirá el tiro penal si la infracción del guardameta influye \nclaramente en el lanzador; \nReglas de Juego 2026/27   |  Regla 14  |  El penal",
+        "Cambios en las Reglas 2026/27\nRegla 14. El penal\n•  Confirmación de la circular n.º 31 referida a jugar el balón por segunda vez \nde manera involuntaria durante un tiro penal.\n•  Eliminación de la amonestación automática (tarjeta amarilla) para el \nlanzador del penal si este y el guardameta cometen una infracción al mismo \ntiempo.\nRegla 15. El saque de banda\n•  Uso de una señal de cuenta atrás de cinco segundos si un jugador o un \nequipo retrasan un saque de banda. Si se excede este tiempo límite, se",
+        "Cambios en las Reglas 2026/27\npodrá revisarse la identidad del infractor ; la propia infracción no \npodrá revisarse salvo que guarde relación con un gol, un incidente \nsancionable con penal o una tarjeta roja .\ne.  Saque de esquina concedido de forma claramente errónea, siempre \nque la decisión se pueda modificar inmediatamente y sin retrasar \nla reanudación (opción para las competiciones) .\nExplicación\nAhora, en las decisiones e incidentes revisables se incluyen dos errores que,",
+        "Regla 14 – El penal\n•  si el balón no entrara en la portería tras el lanzamiento , se repetirá el tiro \npenal;\n•  un jugador del equipo defensor y otro del equipo atacante cometen una \ninfracción: se repetirá el penal, a menos que un jugador cometiera una \ninfracción más grave (p. ej. una finta antirreglamentaria). \nTras el lanzamiento del penal: \n•  si el ejecutor del penal volviera a tocar intencionadamente  el balón antes de \nque lo toque otro jugador:",
+        "Regla 14 – El penal\no sobresaldrá de él,  y los postes, el travesaño y la red no podrán estar tampoco \nen movimiento.\nDeberá indicarse con claridad quién será el ejecutor del lanzamiento.\n El guardameta deberá permanecer sobre su propia línea de meta, entre los dos \npostes de la portería y frente al ejecutor del tiro hasta el golpeo del balón.  \nEl guardameta no se comportará de manera que distraiga de forma \nantirreglamentaria al ejecutor del tiro, p. ej.  no retrasará la ejecución del penal"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1943,
+      "tiempo_s": 1.57
+    },
+    "agente": {
+      "respuesta": "Según la Regla 14 – El penal, se concederá un tiro penal siempre que un jugador cometa una infracción sancionable con tiro libre directo dentro de su propia área penal o fuera del terreno de juego como parte del juego (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 145).",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "cuándo se concede un tiro penal"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "146",
+          "seccion": "Regla 14 – El penal"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "197",
+          "seccion": "Cambios en las Reglas 2026/27"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "145",
+          "seccion": "Regla 14 – El penal"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 14 – El penal\nestar en juego o el árbitro detenga el juego por alguna infracción de las reglas.\n Con el fin de ejecutar y completar un tiro penal, se podrá conceder tiempo \nadicional al final de cada uno de los periodos de juego reglamentarios o del \ntiempo suplementario. Cuando se conceda tiempo adicional, el penal se \ncompletará cuando, una vez ejecutado el tiro, el balón deje de moverse, deje de \nestar en juego, sea jugado por un jugador (incluido el lanzador) aparte del",
+        "Regla 14 – El penal\nrepetirá el penal;\n •  si el balón no entrara en la portería directamente tras el lanzamiento, se \nconcederá un tiro libre indirecto;",
+        "Cambios en las Reglas 2026/27\ndespués de ejecutar el tiro:\n ·  si el balón entrara en la portería directamente tras el lanzamiento, se \nrepetirá el penal;\n ·  si el balón no entrara en la portería directamente tras el lanzamiento, se \nconcederá un tiro libre indirecto;\n • (…)\n •  tanto el guardameta como el lanzador cometen una infracción al mismo \ntiempo: se amonestará al lanzador y se reanudará el juego con un tiro libre \nindirecto para el equipo defensor.\nTras el lanzamiento del penal:",
+        "Regla 14 – El penal\nmedidas disciplinarias antes de volver a dar la señal de ejecución del penal.\n Si antes de que el balón esté en juego se produce alguna de las siguientes \nsituaciones, deberá procederse como se indica a continuación: \n•  si el lanzador del penal golpea el balón de manera involuntaria con los dos \npies simultáneamente o el balón le toca el pie o la pierna de apoyo justo \ndespués de ejecutar el tiro:\n •  si el balón entrara en la portería directamente tras el lanzamiento, se \nrepetirá el penal;",
+        "Regla 14 – El penal\n145\nReglas de Juego 2026/27   |  Regla 14  |  El penal\n Se concederá un tiro penal siempre que un jugador cometa una infracción \nsancionable con libre directo dentro de su área penal o fuera del terreno de \njuego como parte del juego, según se estipula en las Reglas 12 y 13.\nSe podrá marcar gol directamente de tiro penal.\n1. Procedimiento \n El balón deberá estar inmóvil y tocará en parte el centro del  punto penal"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4432,
+      "tiempo_s": 3.12,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cuál debe ser la circunferencia y el peso del balón?",
+    "referencia": "El balón debe tener una circunferencia entre 68 y 70 cm y un peso entre 410 y 450 g al comienzo del partido (Regla 2, pág. 59).",
+    "fijo": {
+      "respuesta": "**Regla 2 – El balón** establece que, al comienzo del partido, el balón debe cumplir con las siguientes especificaciones:\n\n- **Circunferencia:** entre **68 cm y 70 cm** (27‑28 in).  \n- **Peso:** entre **410 g y 450 g** (14‑16 oz).  \n\n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 59)",
+      "contextos": [
+        "Regla 2 – El balón\n59\n1. Características y medidas\nLos balones deberán:\n• ser esféricos;\n• estar fabricados con materiales adecuados;\n• tener una circunferencia comprendida entre 68 y 70 cm (27-28 in);\n•  tener un peso comprendido entre 410 y 450 g (14-16 oz) al comienzo del \npartido;\n•  tener una presión equivalente a 0.6–1.1 atmósferas (600–1100 g/cm 2) al \nnivel del mar.\n Todos los balones utilizados en partidos de competición oficial organizados",
+        "Regla 12 – Faltas y conducta incorrecta\nmientras el balón se halle a distancia de juego y el jugador no retenga a su \nadversario con los brazos o el cuerpo. Si el balón se hallara a distancia de juego, \nel adversario puede cargar contra el jugador, dentro de los márgenes \npermitidos por las Reglas de Juego.\n3. Saque de esquina\n Se concederá un saque de esquina si un guardameta, dentro de su propia área, \ncontrolara el balón con las manos o los brazos durante más de ocho segundos",
+        "Glosario\nel fin de arrebatárselo.\nDistancia de juego (→ playing distance)   \nEspacio existente entre el balón y el jugador que permite a este jugarlo \nextendiendo el pie o la pierna o bien saltando (en el caso de los guardametas, \nsaltando con los brazos extendidos). Esta distancia dependerá de la envergadura \nfísica del jugador.",
+        "Regla 2 – El balón\npodrá restringir el tamaño y el número de dichas marcas.\nEl balón\nReglas de Juego 2026/27   |  Regla 2  |  El balón       \n2",
+        "Cambios en las Reglas 2026/27\n• (…)\nExplicación\n •  El principio fundamental que se sigue es el de conceder un balón a tierra al \nequipo que habría conservado la posesión o la habría ganado si el juego no se \nhubiese detenido. En esta consideración se incluye también el equipo que \nhabría efectuado la reanudación si el balón no hubiera seguido en juego.\n •  Si el juego se detiene porque toca a un árbitro o a un agente externo, el balón \nse deja caer donde se produjo el contacto.",
+        "Regla 12 – Faltas y conducta incorrecta\n128\n•  retenga el balón en las manos o en los brazos, o entre la mano o el brazo y \nuna superficie (p.ej., el suelo, su propio cuerpo);\n• sostenga el balón con las manos abiertas y extendidas;\n• haga rebotar el balón en el suelo o lo lance al aire.\n El árbitro decidirá cuándo el guardameta controla el balón y empiezan a contar \nlos ocho segundos de retención y, con la mano alzada, efectuará la cuenta atrás \nde los últimos cinco segundos.",
+        "Regla 2 – El balón\nbajo los auspicios de la FIFA o de las confederaciones deberán cumplir con los \ncriterios del Programa de calidad de la FIFA de balones de fútbol y portar uno \nde los sellos de calidad del mismo.\n Estos distintivos indican que el balón ha sido examinado oficialmente y cumple \nlos requisitos técnicos para dicho distintivo, además de las especificaciones \nmínimas estipuladas en la Regla 2 y aprobadas por el IFAB. \n En las competiciones de las federaciones nacionales de fútbol, se podrá exigir",
+        "Regla 2 – El balón\n61",
+        "Regla 9 – Balón en juego\n• el equipo en posesión del balón cambie.\n En todos los casos anteriores, el juego se reanudará con un balón a tierra.\n2. Balón en juego\n El balón estará en juego en el resto de situaciones en las que entre en contacto \ncon un miembro del equipo arbitral y cuando rebote en un poste o un \ntravesaño o en el banderín de esquina y permanezca en el terreno de juego.\n Si, sin intención de interferir de forma antirreglamentaria, un miembro del cuerpo",
+        "Regla 15 – El saque de banda\n•  si el balón entrara en la portería del adversario, se concederá un saque de \nmeta;\n•  si el balón entrara en la portería del lanzador, se concederá un saque de \nesquina.\n1. Procedimiento\nAl ejecutar el saque de banda, el lanzador deberá:\n• estar de pie frente al terreno de juego;\n•  pisar la línea de banda con los dos pies —aunque sea parcialmente— o estar \nsituado por fuera de la misma;\n•  lanzar el balón con ambas manos desde atrás y por encima de la cabeza"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1770,
+      "tiempo_s": 1.22
+    },
+    "agente": {
+      "respuesta": "**Circunferencia del balón:** entre 68 cm y 70 cm (27 – 28 in).  \n**Peso del balón:** entre 410 g y 450 g (14 – 16 oz) al comienzo del partido.  \n\n(Fuente: Regla 2 – El balón, Reglas de Juego 2026/27, pág. 59)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "circunferencia del balón peso del balón"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "59",
+          "seccion": "Regla 2 – El balón"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "61",
+          "seccion": "Regla 2 – El balón"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "109",
+          "seccion": "Regla 9 – Balón en juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "60",
+          "seccion": "Regla 2 – El balón"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 2 – El balón\n59\n1. Características y medidas\nLos balones deberán:\n• ser esféricos;\n• estar fabricados con materiales adecuados;\n• tener una circunferencia comprendida entre 68 y 70 cm (27-28 in);\n•  tener un peso comprendido entre 410 y 450 g (14-16 oz) al comienzo del \npartido;\n•  tener una presión equivalente a 0.6–1.1 atmósferas (600–1100 g/cm 2) al \nnivel del mar.\n Todos los balones utilizados en partidos de competición oficial organizados",
+        "Regla 2 – El balón\npodrá restringir el tamaño y el número de dichas marcas.\nEl balón\nReglas de Juego 2026/27   |  Regla 2  |  El balón       \n2",
+        "Regla 2 – El balón\n61",
+        "Regla 9 – Balón en juego\n• el equipo en posesión del balón cambie.\n En todos los casos anteriores, el juego se reanudará con un balón a tierra.\n2. Balón en juego\n El balón estará en juego en el resto de situaciones en las que entre en contacto \ncon un miembro del equipo arbitral y cuando rebote en un poste o un \ntravesaño o en el banderín de esquina y permanezca en el terreno de juego.\n Si, sin intención de interferir de forma antirreglamentaria, un miembro del cuerpo",
+        "Regla 2 – El balón\nllegar a tocar a un jugador, el travesaño o los postes durante la ejecución de un \npenal o de la tanda de penales, se volverá a ejecutar dicho lanzamiento.\n El balón no podrá ser reemplazado durante el transcurso del partido sin la \nautorización del árbitro.\n3. Balones adicionales\n Se podrán colocar balones adicionales alrededor del terreno de juego, siempre \nque cumplan las especificaciones estipuladas en la Regla 2 y su uso lo \nsupervise el árbitro."
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4273,
+      "tiempo_s": 2.0,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Qué presión debe tener el balón?",
+    "referencia": "El balón debe tener una presión equivalente a 0.6–1.1 atmósferas (600–1100 g/cm2) al nivel del mar (Regla 2, pág. 59).",
+    "fijo": {
+      "respuesta": "La presión del balón debe estar comprendida entre **0,6 y 1,1 atmósferas** (equivalente a 600‑1100 g/cm²) al nivel del mar.  \n\n**Regla 2 – El balón** (pág. 59) establece este rango de presión como requisito para los balones utilizados en partidos oficiales.  \n\n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 59)",
+      "contextos": [
+        "Regla 2 – El balón\n59\n1. Características y medidas\nLos balones deberán:\n• ser esféricos;\n• estar fabricados con materiales adecuados;\n• tener una circunferencia comprendida entre 68 y 70 cm (27-28 in);\n•  tener un peso comprendido entre 410 y 450 g (14-16 oz) al comienzo del \npartido;\n•  tener una presión equivalente a 0.6–1.1 atmósferas (600–1100 g/cm 2) al \nnivel del mar.\n Todos los balones utilizados en partidos de competición oficial organizados",
+        "Regla 12 – Faltas y conducta incorrecta\n128\n•  retenga el balón en las manos o en los brazos, o entre la mano o el brazo y \nuna superficie (p.ej., el suelo, su propio cuerpo);\n• sostenga el balón con las manos abiertas y extendidas;\n• haga rebotar el balón en el suelo o lo lance al aire.\n El árbitro decidirá cuándo el guardameta controla el balón y empiezan a contar \nlos ocho segundos de retención y, con la mano alzada, efectuará la cuenta atrás \nde los últimos cinco segundos.",
+        "Regla 12 – Faltas y conducta incorrecta\nantes de soltarlo. Un guardameta controlará el balón con las manos o los \nbrazos cuando:",
+        "Regla 12 – Faltas y conducta incorrecta\nmientras el balón se halle a distancia de juego y el jugador no retenga a su \nadversario con los brazos o el cuerpo. Si el balón se hallara a distancia de juego, \nel adversario puede cargar contra el jugador, dentro de los márgenes \npermitidos por las Reglas de Juego.\n3. Saque de esquina\n Se concederá un saque de esquina si un guardameta, dentro de su propia área, \ncontrolara el balón con las manos o los brazos durante más de ocho segundos",
+        "Regla 9 – Balón en juego\n• el equipo en posesión del balón cambie.\n En todos los casos anteriores, el juego se reanudará con un balón a tierra.\n2. Balón en juego\n El balón estará en juego en el resto de situaciones en las que entre en contacto \ncon un miembro del equipo arbitral y cuando rebote en un poste o un \ntravesaño o en el banderín de esquina y permanezca en el terreno de juego.\n Si, sin intención de interferir de forma antirreglamentaria, un miembro del cuerpo",
+        "Regla 11 – El fuera de juego\nacción.\n Los siguientes criterios se deben emplear, como corresponda, como \nindicadores de que el jugador tiene la posibilidad de controlar el balón y, por \nconsiguiente, la acción es «voluntaria»:\n• el balón llega desde lejos y el jugador lo ve claramente;\n• el balón no se mueve a gran velocidad;",
+        "Regla 2 – El balón\nllegar a tocar a un jugador, el travesaño o los postes durante la ejecución de un \npenal o de la tanda de penales, se volverá a ejecutar dicho lanzamiento.\n El balón no podrá ser reemplazado durante el transcurso del partido sin la \nautorización del árbitro.\n3. Balones adicionales\n Se podrán colocar balones adicionales alrededor del terreno de juego, siempre \nque cumplan las especificaciones estipuladas en la Regla 2 y su uso lo \nsupervise el árbitro.",
+        "Regla 2 – El balón\nbajo los auspicios de la FIFA o de las confederaciones deberán cumplir con los \ncriterios del Programa de calidad de la FIFA de balones de fútbol y portar uno \nde los sellos de calidad del mismo.\n Estos distintivos indican que el balón ha sido examinado oficialmente y cumple \nlos requisitos técnicos para dicho distintivo, además de las especificaciones \nmínimas estipuladas en la Regla 2 y aprobadas por el IFAB. \n En las competiciones de las federaciones nacionales de fútbol, se podrá exigir",
+        "Regla 17 – El saque de esquina\nsancionó.\n•  El balón deberá estar inmóvil y ejecutará el saque un jugador del equipo \natacante.\n•  El balón estará en juego una vez haya sido golpeado con el pie y se mueva \ncon claridad; no será necesario que salga del cuadrante de esquina.\n• No se deberá mover el poste del banderín.\n•  Los adversarios deberán permanecer a un mínimo de 9.15 m (10 yd) del \ncuadrante de esquina hasta que el balón esté en juego.\n17\nEl saque de esquina",
+        "Regla 9 – Balón en juego\n109\nReglas de Juego 2026/27   |  Regla 9  |  Balón en juego \n1. Balón no en juego\nEl balón no estará en juego cuando:\n•  haya atravesado completamente la línea de meta o de banda, ya sea por el \nsuelo o por el aire;\n• el juego haya sido detenido por el árbitro;\n•  el balón toque a un miembro del equipo arbitral, permanezca en el terreno \nde juego y, además:\n • un equipo inicie un ataque prometedor o\n • el balón entre directamente en la portería o\n • el equipo en posesión del balón cambie."
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1854,
+      "tiempo_s": 1.26
+    },
+    "agente": {
+      "respuesta": "Según la Regla 2 – El balón, la presión del balón debe estar entre **0,6 y 1,1 atmósferas** (equivalente a 600–1100 g/cm²) al nivel del mar. (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 59)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "presión del balón reglamento 2026/27"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "59",
+          "seccion": "Regla 2 – El balón"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "61",
+          "seccion": "Regla 2 – El balón"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "60",
+          "seccion": "Regla 2 – El balón"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 2 – El balón\n59\n1. Características y medidas\nLos balones deberán:\n• ser esféricos;\n• estar fabricados con materiales adecuados;\n• tener una circunferencia comprendida entre 68 y 70 cm (27-28 in);\n•  tener un peso comprendido entre 410 y 450 g (14-16 oz) al comienzo del \npartido;\n•  tener una presión equivalente a 0.6–1.1 atmósferas (600–1100 g/cm 2) al \nnivel del mar.\n Todos los balones utilizados en partidos de competición oficial organizados",
+        "Regla 2 – El balón\npodrá restringir el tamaño y el número de dichas marcas.\nEl balón\nReglas de Juego 2026/27   |  Regla 2  |  El balón       \n2",
+        "Regla 2 – El balón\n61",
+        "Regla 2 – El balón\nllegar a tocar a un jugador, el travesaño o los postes durante la ejecución de un \npenal o de la tanda de penales, se volverá a ejecutar dicho lanzamiento.\n El balón no podrá ser reemplazado durante el transcurso del partido sin la \nautorización del árbitro.\n3. Balones adicionales\n Se podrán colocar balones adicionales alrededor del terreno de juego, siempre \nque cumplan las especificaciones estipuladas en la Regla 2 y su uso lo \nsupervise el árbitro.",
+        "Regla 2 – El balón\nbajo los auspicios de la FIFA o de las confederaciones deberán cumplir con los \ncriterios del Programa de calidad de la FIFA de balones de fútbol y portar uno \nde los sellos de calidad del mismo.\n Estos distintivos indican que el balón ha sido examinado oficialmente y cumple \nlos requisitos técnicos para dicho distintivo, además de las especificaciones \nmínimas estipuladas en la Regla 2 y aprobadas por el IFAB. \n En las competiciones de las federaciones nacionales de fútbol, se podrá exigir"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4216,
+      "tiempo_s": 2.56,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cuáles son las medidas de la portería?",
+    "referencia": "La distancia entre la parte interior de los postes es de 7.32 m y la distancia del borde inferior del travesaño al suelo es de 2.44 m; postes y travesaño son blancos y miden como máximo 12 cm de ancho (Regla 1, pág. 54).",
+    "fijo": {
+      "respuesta": "**Regla 1 – El terreno de juego**  \n\n- **Anchura entre los postes interiores:** 7.32 m (8 yd).  \n- **Altura del travesaño (distancia del borde inferior al suelo):** 2.44 m (8 ft).  \n- **Color y dimensiones de los postes y del travesaño:** deben ser blancos y tener la misma anchura y espesor, con un máximo de 12 cm (5 in).  \n\n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 54)  \n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 55)",
+      "contextos": [
+        "Glosario\n221\nTerreno de juego (→ field of play [pitch])   \nSuperficie delimitada por las líneas de banda y las de meta y, de utilizarse, las \nredes de las porterías.\nTiempo adicional (→ additional time)  \nMinutos añadidos al final de cada uno de los periodos para compensar el tiempo \nperdido, p. ej. por sustituciones, lesiones, sanciones disciplinarias, celebración \nde goles, etc.\nTiempo suplementario (→ extra time)  \nProcedimiento empleado a la conclusión del tiempo reglamentario de un",
+        "Notas\n260\nNotas",
+        "Notas\n271\nReglas de Juego 2026/27  |  Notas",
+        "Regla 1 – El terreno de juego\nmarca\nopcional\nradio 1 m (1 yd)\n•  Las medidas parten del exterior de las líneas de demarcación, puesto que la \npropia línea forma parte del área que delimita.\n•  La distancia del punto penal se mide desde el centro de este hasta el borde \nexterno de la línea de meta.",
+        "Regla 1 – El terreno de juego\nSi un jugador realiza marcas no autorizadas en el terreno de juego, será \namonestado por conducta antideportiva. Si el árbitro se percatara de ello durante \nel partido, el infractor será amonestado en cuanto el balón deje de estar en juego.\n3.   Dimensiones \n La longitud de la línea de banda deberá ser superior a la longitud de la línea de  \n meta.\n•  Longitud (línea de banda):  \nmínimo   90 m (100 yd)  \nmáximo 120 m (130 yd)\n•   Longitud (línea de meta):  \nmínimo 45 m (50 yd)",
+        "Notas\n262\nNotas",
+        "Regla 5 – El árbitro\nEquipamiento obligatorio\nEl árbitro deberá disponer del siguiente equipamiento:\n• silbato(s);\n• cronómetro(s);\n• tarjetas rojas y amarillas;\n• cuaderno de notas (u otro medio para anotar las incidencias del partido).\nOtro equipamiento\nLos árbitros tienen autorización para emplear:",
+        "Regla 1 – El terreno de juego\n55\n55\n2.44 m (8 ft)\nLa colocación de los postes con \nrespecto a la línea de meta deberá \najustarse a la de los gráficos \npresentados a continuación:\n7.32  m\n7.32  m\n7.32  m\n7.32  m\n7.32 m (8 yds)",
+        "Regla 1 – El terreno de juego\n54\n La distancia entre la parte interior de los postes será de 7.32 m (8 yd) y la \ndistancia del borde inferior del travesaño al suelo será de 2.44 m (8 ft).\n La posición de los postes de la portería con respecto a la línea de meta debe \najustarse a la presentada en las ilustraciones.\n Los postes y el travesaño deberán ser de color blanco y tendrán la misma \nanchura y espesor, como máximo 12 cm (5 in).\n Si el travesaño se rompiera o se saliera de su sitio, se detendrá el juego hasta",
+        "Notas\n265\nReglas de Juego 2026/27  |  Notas"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1572,
+      "tiempo_s": 1.47
+    },
+    "agente": {
+      "respuesta": "**Según las Reglas de Juego 2026/27:**\n\n- La distancia entre la parte interior de los postes (ancho de la portería) es **7.32 m (8 yd)**.  \n- La distancia desde el borde inferior del travesaño al suelo (altura de la portería) es **2.44 m (8 ft)**.  \n- Los postes y el travesaño deben ser de color blanco y tener la misma anchura y espesor, como máximo **12 cm (5 in)**.  \n\n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 54, sección “Regla 1 – El terreno de juego”).",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "medidas de la portería"
+          }
+        },
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "dimensiones portería"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "3",
+          "seccion": "3"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "2",
+          "seccion": "2"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "62",
+          "seccion": "Regla 2 – El balón"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "262",
+          "seccion": "Notas"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "271",
+          "seccion": "Notas"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "55",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "54",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "56",
+          "seccion": "Regla 1 – El terreno de juego"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "3",
+        "2",
+        "Regla 2 – El balón\nRegla\n3",
+        "Notas\n262\nNotas",
+        "Notas\n271\nReglas de Juego 2026/27  |  Notas",
+        "Regla 1 – El terreno de juego\n55\n55\n2.44 m (8 ft)\nLa colocación de los postes con \nrespecto a la línea de meta deberá \najustarse a la de los gráficos \npresentados a continuación:\n7.32  m\n7.32  m\n7.32  m\n7.32  m\n7.32 m (8 yds)",
+        "Regla 1 – El terreno de juego\n54\n La distancia entre la parte interior de los postes será de 7.32 m (8 yd) y la \ndistancia del borde inferior del travesaño al suelo será de 2.44 m (8 ft).\n La posición de los postes de la portería con respecto a la línea de meta debe \najustarse a la presentada en las ilustraciones.\n Los postes y el travesaño deberán ser de color blanco y tendrán la misma \nanchura y espesor, como máximo 12 cm (5 in).\n Si el travesaño se rompiera o se saliera de su sitio, se detendrá el juego hasta",
+        "Regla 1 – El terreno de juego\nelementos no se podrá fijar ningún material externo (p. ej. cámaras, \nmicrófonos, etc.).\nAdemás, la publicidad vertical deberá hallarse al menos a:\n• 1 m (1 yd) de las líneas de banda;\n•  la misma distancia de la línea de meta que la profundidad de las redes de la \nportería;\n• 1 m (1 yd) de la red de la portería.\n13. Logotipos y emblemas\n Durante el tiempo de juego, queda prohibida en el terreno de juego, las redes",
+        "3",
+        "Notas\n262\nNotas"
+      ],
+      "llamadas_llm": 3,
+      "tokens_total": 6588,
+      "tiempo_s": 3.05,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cuáles son las dimensiones del terreno de juego en partidos internacionales?",
+    "referencia": "En partidos internacionales la línea de banda mide entre 100 y 110 m y la línea de meta entre 64 y 75 m (Regla 1, pág. 51).",
+    "fijo": {
+      "respuesta": "**Regla 1 – El terreno de juego**  \n\nEn partidos internacionales, las dimensiones del terreno de juego deben respetar los siguientes límites:\n\n- **Línea de banda (longitud):** entre **100 m (110 yd)** y **110 m (120 yd)**.  \n- **Línea de meta (anchura):** entre **64 m (70 yd)** y **75 m (80 yd)**.  \n\n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 51)",
+      "contextos": [
+        "Regla 1 – El terreno de juego\nterreno de juego. Dicha área estará: \n• situada en un lugar visible fuera del terreno de juego;\n• claramente marcada.\n Se amonestará a todos aquellos jugadores, suplentes, jugadores sustituidos o \nmiembros del cuerpo técnico que entren en el área de revisión. \nReglas de Juego 2026/27   |  Regla 1  |  El terreno de juego",
+        "Regla 1 – El terreno de juego\nCuando se utilicen superficies artificiales en partidos de competición entre \nselecciones de federaciones nacionales de fútbol afiliadas a la FIFA o en \npartidos internacionales de competición de clubes, la superficie deberá cumplir \nlos requisitos del Programa de calidad de la FIFA de césped artificial, salvo si el \nIFAB concediera una dispensa especial.\n2.   Marcación del terreno\n El terreno de juego será rectangular y estará marcado con líneas continuas que",
+        "Regla 1 – El terreno de juego\nel área técnica o en el área de revisión, o en el suelo a una distancia de 1 m  \n(1 yd) de las líneas de demarcación del terreno de juego, desde el momento  \nen que los equipos entran en el terreno de juego hasta que lo abandonan en  \nel descanso del medio tiempo, y desde el momento en que vuelven a entrar al \nterreno de juego hasta el término del partido. Está prohibida la publicidad en \nlas porterías, las redes, los banderines de esquina y sus postes, y en estos",
+        "Regla 1 – El terreno de juego\nde la portería y el área que ocupan, las porterías y los postes de los banderines \nde esquina la reproducción real o virtual de logotipos o emblemas \nrepresentativos de la FIFA, las confederaciones, las federaciones nacionales de \nfútbol, las competiciones, los clubes o de otras entidades. Sí están permitidos \nen los banderines de esquina.",
+        "Regla 1 – El terreno de juego\n53\n9. Área técnica\n El área técnica se relaciona en particular con los partidos disputados en \nestadios que cuentan con un área específica con asientos para el cuerpo \ntécnico, los suplentes y los jugadores sustituidos (el banquillo), cuyas \ncaracterísticas se describen a continuación:\n•  se extenderá únicamente 1 m (1 yd) a cada lado del banquillo y hasta 1 m     \n(1 yd) de distancia de la línea de banda;\n• deberá delimitarse con líneas de demarcación;",
+        "Observaciones y adaptaciones\nObservaciones sobre  \nlas Reglas de Juego",
+        "Regla 4 – El equipamiento de los jugadores\nregionales, nacionales o internacionales;\n•  de gobiernos locales, regionales o nacionales ni de sus ministerios, cargos o \nfunciones;\n•  de ninguna organización de carácter discriminatorio;\n•  de ninguna organización cuyos objetivos o acciones puedan ofender a un \nnúmero considerable de personas;\n• de ningún acto o acontecimiento de carácter político.\n Cuando se conmemore un acto relevante nacional o internacional, se deberán",
+        "Regla 10 – El resultado de un partido\narbitral.\n•  Todos los jugadores autorizados para participar en la tanda de penales, \nexcepto el lanzador y los dos guardametas, deberán permanecer en el \ninterior del círculo central.\n•  El guardameta del equipo ejecutor del lanzamiento deberá permanecer en el \nterreno de juego, fuera del área penal, en la intersección de la línea de meta \ncon la línea de demarcación del área penal.\n•  Cualquiera de los jugadores autorizados para participar en la tanda de",
+        "Regla 1 – El terreno de juego\nmínimo 45 m (50 yd)  \nmáximo 90 m (100 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n4. Dimensiones en partidos internacionales\n•  Longitud (línea de banda):  \nmínimo 100 m (110 yd)  \nmáximo 110 m (120 yd)\n•   Longitud (línea de meta):  \nmínimo 64 m (70 yd)  \nmáximo 75 m (80 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n5. Área de meta",
+        "Regla 1 – El terreno de juego\nReglas de Juego 2026/27   |  Regla 1  |  El terreno de juego"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1735,
+      "tiempo_s": 1.28
+    },
+    "agente": {
+      "respuesta": "**Dimensiones del terreno de juego en partidos internacionales (Regla 1 – El terreno de juego):**  \n\n- **Longitud (línea de banda):** mínimo 100 m (110 yd) – máximo 110 m (120 yd).  \n- **Anchura (línea de meta):** mínimo 64 m (70 yd) – máximo 75 m (80 yd).  \n\n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 51)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "dimensiones del terreno de juego partidos internacionales"
+          }
+        },
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "dimensiones internacionales 100-110 64-75 metros regla 1"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "17",
+          "seccion": "Observaciones y adaptaciones"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "56",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "49",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "53",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "55",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "50",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "51",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "54",
+          "seccion": "Regla 1 – El terreno de juego"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Observaciones y adaptaciones\nObservaciones sobre  \nlas Reglas de Juego",
+        "Regla 1 – El terreno de juego\nde la portería y el área que ocupan, las porterías y los postes de los banderines \nde esquina la reproducción real o virtual de logotipos o emblemas \nrepresentativos de la FIFA, las confederaciones, las federaciones nacionales de \nfútbol, las competiciones, los clubes o de otras entidades. Sí están permitidos \nen los banderines de esquina.",
+        "Regla 1 – El terreno de juego\nCuando se utilicen superficies artificiales en partidos de competición entre \nselecciones de federaciones nacionales de fútbol afiliadas a la FIFA o en \npartidos internacionales de competición de clubes, la superficie deberá cumplir \nlos requisitos del Programa de calidad de la FIFA de césped artificial, salvo si el \nIFAB concediera una dispensa especial.\n2.   Marcación del terreno\n El terreno de juego será rectangular y estará marcado con líneas continuas que",
+        "Regla 1 – El terreno de juego\nel área técnica o en el área de revisión, o en el suelo a una distancia de 1 m  \n(1 yd) de las líneas de demarcación del terreno de juego, desde el momento  \nen que los equipos entran en el terreno de juego hasta que lo abandonan en  \nel descanso del medio tiempo, y desde el momento en que vuelven a entrar al \nterreno de juego hasta el término del partido. Está prohibida la publicidad en \nlas porterías, las redes, los banderines de esquina y sus postes, y en estos",
+        "Regla 1 – El terreno de juego\nReglas de Juego 2026/27   |  Regla 1  |  El terreno de juego",
+        "Regla 1 – El terreno de juego\n55\n55\n2.44 m (8 ft)\nLa colocación de los postes con \nrespecto a la línea de meta deberá \najustarse a la de los gráficos \npresentados a continuación:\n7.32  m\n7.32  m\n7.32  m\n7.32  m\n7.32 m (8 yds)",
+        "Regla 1 – El terreno de juego\n50\nmín. 45 m (50 yd) / máx. 90 m (100 yd)línea de meta\nárea de esquina\nárea de meta\nárea penal\n7.32  m (8 yd)\nsemicírculo del área\npunto penal\nposte del banderín central (opcional) poste del banderín de esquina (obligatorio)\nmín. 90 m (100 yd) / máx. 120 m (130 yd) radio\n9.15 m \n(10 yd)\nlínea central o de medio campopunto central\ncírculo central\n9.15 m (10 yd)\nlínea de banda\n11 m \n(12 yd)\n9.15 m (10 yd)\n16.5 m\n(18 yd) \n5.5  m\n(6 yd)\n16.5 m (18 yd) 5.5  m (6 yd) 9.15 m (10 yd)\nmarca\nopcional",
+        "Regla 1 – El terreno de juego\nmínimo 45 m (50 yd)  \nmáximo 90 m (100 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n4. Dimensiones en partidos internacionales\n•  Longitud (línea de banda):  \nmínimo 100 m (110 yd)  \nmáximo 110 m (120 yd)\n•   Longitud (línea de meta):  \nmínimo 64 m (70 yd)  \nmáximo 75 m (80 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n5. Área de meta",
+        "Regla 1 – El terreno de juego\n54\n La distancia entre la parte interior de los postes será de 7.32 m (8 yd) y la \ndistancia del borde inferior del travesaño al suelo será de 2.44 m (8 ft).\n La posición de los postes de la portería con respecto a la línea de meta debe \najustarse a la presentada en las ilustraciones.\n Los postes y el travesaño deberán ser de color blanco y tendrán la misma \nanchura y espesor, como máximo 12 cm (5 in).\n Si el travesaño se rompiera o se saliera de su sitio, se detendrá el juego hasta",
+        "Regla 1 – El terreno de juego\n51\n El punto central del terreno de juego se hallará en el punto medio de la línea \ncentral, alrededor del cual se trazará una circunferencia con un radio de 9.15 m \n(10 yd).\n Se podrán realizar marcaciones fuera del terreno de juego, a 9.15 m (10 yd) del \narco de esquina y en perpendicular a las líneas de meta y a las líneas de banda.\n Todas las líneas deberán tener la misma anchura, como máximo 12 cm (5 in). \nLas líneas de meta tendrán la misma anchura que los postes y el travesaño."
+      ],
+      "llamadas_llm": 3,
+      "tokens_total": 7797,
+      "tiempo_s": 3.91,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿A qué distancia de la línea de meta está el punto penal?",
+    "referencia": "El punto penal se marca a 11 m de la línea de meta, equidistante de los dos postes, dentro del área penal (Regla 1, pág. 52).",
+    "fijo": {
+      "respuesta": "El punto penal se sitúa a **11 m (12 yd)** de la línea de meta, en el interior de cada área penal. (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 52)",
+      "contextos": [
+        "Regla 1 – El terreno de juego\n52\n6. Área penal\n Se trazarán dos líneas perpendiculares a la línea de meta, a 16.5 m (18 yd) de \nla parte interior de cada uno de los postes de la portería. Dichas líneas se \nadentrarán 16.5 m (18 yd) en el terreno de juego y se unirán con una línea \nparalela a la línea de meta. El área delimitada por dichas líneas y la línea de \nmeta conformará el área penal.\n En el interior de cada una de las áreas penales se marcará un punto a 11 m",
+        "Regla 1 – El terreno de juego\n54\n La distancia entre la parte interior de los postes será de 7.32 m (8 yd) y la \ndistancia del borde inferior del travesaño al suelo será de 2.44 m (8 ft).\n La posición de los postes de la portería con respecto a la línea de meta debe \najustarse a la presentada en las ilustraciones.\n Los postes y el travesaño deberán ser de color blanco y tendrán la misma \nanchura y espesor, como máximo 12 cm (5 in).\n Si el travesaño se rompiera o se saliera de su sitio, se detendrá el juego hasta",
+        "Regla 1 – El terreno de juego\n50\nmín. 45 m (50 yd) / máx. 90 m (100 yd)línea de meta\nárea de esquina\nárea de meta\nárea penal\n7.32  m (8 yd)\nsemicírculo del área\npunto penal\nposte del banderín central (opcional) poste del banderín de esquina (obligatorio)\nmín. 90 m (100 yd) / máx. 120 m (130 yd) radio\n9.15 m \n(10 yd)\nlínea central o de medio campopunto central\ncírculo central\n9.15 m (10 yd)\nlínea de banda\n11 m \n(12 yd)\n9.15 m (10 yd)\n16.5 m\n(18 yd) \n5.5  m\n(6 yd)\n16.5 m (18 yd) 5.5  m (6 yd) 9.15 m (10 yd)\nmarca\nopcional",
+        "Regla 1 – El terreno de juego\n5. Área de meta\n Se trazarán dos líneas perpendiculares a la línea de meta, a 5.5 m (6 yd) de la parte \ninterior de cada uno de los postes de la portería. Dichas líneas se adentrarán 5.5 m \n(6 yd) en el terreno de juego y se unirán con una línea paralela a la línea de meta. \nEl área delimitada por dichas líneas y la línea de meta conformará el área de meta.\nReglas de Juego 2026/27   |  Regla 1  |  El terreno de juego",
+        "Regla 1 – El terreno de juego\nSi un jugador realiza marcas no autorizadas en el terreno de juego, será \namonestado por conducta antideportiva. Si el árbitro se percatara de ello durante \nel partido, el infractor será amonestado en cuanto el balón deje de estar en juego.\n3.   Dimensiones \n La longitud de la línea de banda deberá ser superior a la longitud de la línea de  \n meta.\n•  Longitud (línea de banda):  \nmínimo   90 m (100 yd)  \nmáximo 120 m (130 yd)\n•   Longitud (línea de meta):  \nmínimo 45 m (50 yd)",
+        "Regla 1 – El terreno de juego\nmínimo 45 m (50 yd)  \nmáximo 90 m (100 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n4. Dimensiones en partidos internacionales\n•  Longitud (línea de banda):  \nmínimo 100 m (110 yd)  \nmáximo 110 m (120 yd)\n•   Longitud (línea de meta):  \nmínimo 64 m (70 yd)  \nmáximo 75 m (80 yd)\n Las competiciones podrán determinar la longitud de la línea de meta y de la \nlínea de banda respetando estos límites.\n5. Área de meta",
+        "Regla 1 – El terreno de juego\n51\n El punto central del terreno de juego se hallará en el punto medio de la línea \ncentral, alrededor del cual se trazará una circunferencia con un radio de 9.15 m \n(10 yd).\n Se podrán realizar marcaciones fuera del terreno de juego, a 9.15 m (10 yd) del \narco de esquina y en perpendicular a las líneas de meta y a las líneas de banda.\n Todas las líneas deberán tener la misma anchura, como máximo 12 cm (5 in). \nLas líneas de meta tendrán la misma anchura que los postes y el travesaño.",
+        "Regla 1 – El terreno de juego\n55\n55\n2.44 m (8 ft)\nLa colocación de los postes con \nrespecto a la línea de meta deberá \najustarse a la de los gráficos \npresentados a continuación:\n7.32  m\n7.32  m\n7.32  m\n7.32  m\n7.32 m (8 yds)",
+        "Regla 14 – El penal\nni tocará los postes, el travesaño o la red de la portería.\n Todos los jugadores, excepto el ejecutor del penal y el guardameta, deberán \nestar:\n• a un mínimo de 9.15 m (10 yd) del punto penal;\n• detrás del punto penal;\n• dentro de los límites del terreno de juego;\n• fuera del área penal.\n Una vez que los jugadores hayan ocupado su posición de conformidad con la \npresente regla, el árbitro dará la señal para que se ejecute el penal.",
+        "Regla 1 – El terreno de juego\n(12 yd) de distancia equidistante a los dos postes: el punto penal o de penalti.\n Al exterior de ambas áreas penales se trazará un arco de circunferencia con un \nradio de 9.15 m (10 yd) desde el centro del punto penal.\n7. Área de esquina\n El área de esquina se marcará trazando un cuadrante en el interior del terreno \nde juego con un radio de 1 m (1 yd) desde el banderín de esquina.\n8. Postes de banderines\n En cada una de las esquinas, se colocará un poste no puntiagudo con un"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 2364,
+      "tiempo_s": 1.58
+    },
+    "agente": {
+      "respuesta": "**Según las Reglas de Juego:**  \nEl punto penal se marca a **11 m (12 yd)** de la línea de meta, en el interior del área penal. (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 52, Regla 1 – El terreno de juego)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "distancia del punto penal a la línea de meta"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "52",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "50",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "54",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "51",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "141",
+          "seccion": "Regla 13 – Tiros libres"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 1 – El terreno de juego\n52\n6. Área penal\n Se trazarán dos líneas perpendiculares a la línea de meta, a 16.5 m (18 yd) de \nla parte interior de cada uno de los postes de la portería. Dichas líneas se \nadentrarán 16.5 m (18 yd) en el terreno de juego y se unirán con una línea \nparalela a la línea de meta. El área delimitada por dichas líneas y la línea de \nmeta conformará el área penal.\n En el interior de cada una de las áreas penales se marcará un punto a 11 m",
+        "Regla 1 – El terreno de juego\n50\nmín. 45 m (50 yd) / máx. 90 m (100 yd)línea de meta\nárea de esquina\nárea de meta\nárea penal\n7.32  m (8 yd)\nsemicírculo del área\npunto penal\nposte del banderín central (opcional) poste del banderín de esquina (obligatorio)\nmín. 90 m (100 yd) / máx. 120 m (130 yd) radio\n9.15 m \n(10 yd)\nlínea central o de medio campopunto central\ncírculo central\n9.15 m (10 yd)\nlínea de banda\n11 m \n(12 yd)\n9.15 m (10 yd)\n16.5 m\n(18 yd) \n5.5  m\n(6 yd)\n16.5 m (18 yd) 5.5  m (6 yd) 9.15 m (10 yd)\nmarca\nopcional",
+        "Regla 1 – El terreno de juego\n54\n La distancia entre la parte interior de los postes será de 7.32 m (8 yd) y la \ndistancia del borde inferior del travesaño al suelo será de 2.44 m (8 ft).\n La posición de los postes de la portería con respecto a la línea de meta debe \najustarse a la presentada en las ilustraciones.\n Los postes y el travesaño deberán ser de color blanco y tendrán la misma \nanchura y espesor, como máximo 12 cm (5 in).\n Si el travesaño se rompiera o se saliera de su sitio, se detendrá el juego hasta",
+        "Regla 1 – El terreno de juego\n5. Área de meta\n Se trazarán dos líneas perpendiculares a la línea de meta, a 5.5 m (6 yd) de la parte \ninterior de cada uno de los postes de la portería. Dichas líneas se adentrarán 5.5 m \n(6 yd) en el terreno de juego y se unirán con una línea paralela a la línea de meta. \nEl área delimitada por dichas líneas y la línea de meta conformará el área de meta.\nReglas de Juego 2026/27   |  Regla 1  |  El terreno de juego",
+        "Regla 13 – Tiros libres\npunto más próximo de la línea del área de meta paralela a la línea de meta;\n•  los tiros libres a favor del equipo defensor en su área de meta podrán \nejecutarse desde cualquier punto del área de meta;13\nTiros libres"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4540,
+      "tiempo_s": 3.37,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "En competiciones con cinco sustituciones, ¿cuántas oportunidades tiene cada equipo para hacer los cambios?",
+    "referencia": "Cada equipo dispone de un máximo de tres oportunidades para hacer sustituciones; además puede hacer cambios durante el descanso del medio tiempo (Regla 3, pág. 63).",
+    "fijo": {
+      "respuesta": "En competiciones oficiales en las que se permite un máximo de cinco sustituciones, cada equipo dispone de **tres oportunidades** para efectuar esos cambios (además de poder realizar sustituciones durante el descanso). (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 63 – Regla 3 – Los jugadores)",
+      "contextos": [
+        "Cambios en las Reglas 2026/27\nvigor relacionados con las oportunidades de sustitución en competiciones \noficiales .\nExplicación\nEn los partidos amistosos internacionales entre selecciones absolutas, se \npermite ahora que los equipos usen ocho suplentes inscritos como tal, a \nmenos que los dos equipos acuerden utilizar más, hasta un máximo de once. \nLas oportunidades de sustitución se restringirán a tres por equipo.",
+        "Regla 3 – Los jugadores\npermita realizar un máximo de cinco sustituciones, ambos equipos:\n•  dispondrán de un máximo de tres oportunidades para proceder con las \nsustituciones*\n•  además de estas tres oportunidades, podrán realizar sustituciones durante el \ndescanso\n *En el caso de que ambos equipos realizaran una sustitución al mismo tiempo, se \nrestará una oportunidad de sustitución a cada uno de ellos. En el caso de que uno \nde los equipos solicite/realice múltiples sustituciones en el mismo momento en el",
+        "Regla 3 – Los jugadores\n64\nPrórroga\n•  Si los equipos no hubieran utilizado el número máximo de suplentes o no \nhubieran agotado el número máximo de oportunidades de sustitución, \ndurante la prórroga podrán disponer de los suplentes o las oportunidades \nrestantes.\n•  Cuando el reglamento de la competición autorice el empleo durante la \nprórroga de un suplente más, los dos equipos contarán con una oportunidad \nde sustitución adicional.\n•  También podrán realizarse sustituciones tanto en el periodo comprendido",
+        "Cambios en las Reglas 2026/27\n181\nReglas de Juego 2026/27   |  Cambios en las Reglas 2026/27\nResumen de los \ncambios en  \nlas Reglas de Juego\n2026/27\nRegla 3. Los jugadores\n•  Las sustituciones permitidas en partidos amistosos internacionales entre \nselecciones absolutas se han incrementado a ocho, o a once siempre que \nambos equipos así lo acuerden e informen al árbitro de antemano; se seguirá \naplicando la limitación de tres oportunidades de sustitución por equipo.",
+        "Regla 3 – Los jugadores\ncon las oportunidades de sustitución en competiciones oficiales .\n En el resto de partidos, se podrá utilizar un número mayor de suplentes, \nsiempre que:\n• los equipos lleguen a un acuerdo sobre el número máximo;\n• se haya informado al árbitro antes del comienzo del partido.",
+        "Regla 3 – Los jugadores\n2. Número de sustituciones\nCompeticiones oficiales\n En los partidos de competición oficial organizados por la FIFA, las \nconfederaciones o las federaciones nacionales de fútbol, se podrá utilizar un \nmáximo de cinco suplentes. En el caso de competiciones masculinas y femeninas \nen las que participe el primer equipo de los clubes de la máxima categoría o \nselecciones nacionales absolutas, y en las que el reglamento de la competición",
+        "Cambios en las Reglas 2026/27\nsubrayados . \nRegla 3. Los jugadores (p. 64)\n2. Número de sustituciones\nTexto modificado\nOtros partidos \nEn los partidos de selecciones nacionales absolutas, se podrá designar un \nmáximo de quince suplentes, de los cuales se podrán utilizar un máximo de \nseis ocho, a menos que los dos equipos acuerden que se utilicen más \nsustituciones, hasta un máximo de once, en cuyo caso se deberá informar al \nárbitro antes del partido. Se aplicarán las restricciones y procedimientos en",
+        "Observaciones y adaptaciones\nmomento en el que se produzca.\n•  En aquellas competiciones en las que la cantidad de suplentes designados \ncoincida con el número máximo de sustituciones «normales» permitidas, se \npodrá utilizar en cualquier momento un jugador previamente sustituido si \nfuera necesario efectuar una sustitución por conmoción cerebral, \nindependientemente de la cantidad de sustitutos que se hayan utilizado.\n•  Cuando se haga uso de la sustitución por conmoción cerebral, el equipo",
+        "Regla 3 – Los jugadores\n(incluso si los equipos ya han hecho uso de todas las sustituciones \npermitidas).\nOtros partidos\n En los partidos de selecciones nacionales absolutas, se podrá designar un \nmáximo de quince suplentes, de los cuales se podrán utilizar un máximo de \nocho, a menos que los dos equipos acuerden que se utilicen más sustituciones, \nhasta un máximo de once, en cuyo caso se deberá informar al árbitro antes del \npartido. Se aplicarán las restricciones y procedimientos en vigor relacionados",
+        "Regla 3 – Los jugadores\nentre el final del tiempo reglamentario y el inicio de la prórroga como en el \nintervalo de cambio de campos a la conclusión de la primera parte de la \nprórroga. Además, estas sustituciones no contarán como oportunidades de \nsustitución.\nEl reglamento de la competición deberá estipular:\n•  el número máximo de suplentes que podrán inscribirse, de tres a un máximo \nde quince;\n•  si se puede utilizar un suplente adicional si el partido llega a la prórroga"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1911,
+      "tiempo_s": 1.46
+    },
+    "agente": {
+      "respuesta": "En una competición que permite **cinco sustituciones**, cada equipo dispone de **tres oportunidades** para efectuar esos cambios durante el transcurso del partido; además, pueden realizar sustituciones en el descanso.  \n\n(Fuente: Regla 3 – Los jugadores, pág. 63, Reglas‑de‑Juego‑2026‑27‑IFAB.pdf)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "cinco sustituciones oportunidades cambios"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "184",
+          "seccion": "Cambios en las Reglas 2026/27"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "63",
+          "seccion": "Regla 3 – Los jugadores"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "210",
+          "seccion": "Cambios en las Reglas 2026/27"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "181",
+          "seccion": "Cambios en las Reglas 2026/27"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "188",
+          "seccion": "Cambios en las Reglas 2026/27"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Cambios en las Reglas 2026/27\nvigor relacionados con las oportunidades de sustitución en competiciones \noficiales .\nExplicación\nEn los partidos amistosos internacionales entre selecciones absolutas, se \npermite ahora que los equipos usen ocho suplentes inscritos como tal, a \nmenos que los dos equipos acuerden utilizar más, hasta un máximo de once. \nLas oportunidades de sustitución se restringirán a tres por equipo.",
+        "Regla 3 – Los jugadores\npermita realizar un máximo de cinco sustituciones, ambos equipos:\n•  dispondrán de un máximo de tres oportunidades para proceder con las \nsustituciones*\n•  además de estas tres oportunidades, podrán realizar sustituciones durante el \ndescanso\n *En el caso de que ambos equipos realizaran una sustitución al mismo tiempo, se \nrestará una oportunidad de sustitución a cada uno de ellos. En el caso de que uno \nde los equipos solicite/realice múltiples sustituciones en el mismo momento en el",
+        "Cambios en las Reglas 2026/27\nGlosario",
+        "Cambios en las Reglas 2026/27\n181\nReglas de Juego 2026/27   |  Cambios en las Reglas 2026/27\nResumen de los \ncambios en  \nlas Reglas de Juego\n2026/27\nRegla 3. Los jugadores\n•  Las sustituciones permitidas en partidos amistosos internacionales entre \nselecciones absolutas se han incrementado a ocho, o a once siempre que \nambos equipos así lo acuerden e informen al árbitro de antemano; se seguirá \naplicando la limitación de tres oportunidades de sustitución por equipo.",
+        "Cambios en las Reglas 2026/27\ndetección del fuera de juego.\nLas decisiones arbitrales sobre hechos y acciones sucedidos durante el \nencuentro (...)\nExplicación\nLa incorporación en la Regla 5 de la opción que tienen las competiciones de usar \nla tecnología (incluidas las repeticiones de vídeo) impedirá que los árbitros la \nusen extraoficialmente.\nRegla 5. El árbitro (p. 82)\n3. Facultades y obligaciones\nTexto modificado\nLa ventaja\n •  permitirá que el juego prosiga si se produce una infracción o un equipo"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4348,
+      "tiempo_s": 3.11,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Cómo se ejecuta un balón a tierra si el juego se detuvo con el balón dentro del área penal?",
+    "referencia": "Si el balón estaba en el área penal, el árbitro concede el balón a tierra al guardameta del equipo defensor dentro de su área penal (Regla 8, pág. 106).",
+    "fijo": {
+      "respuesta": "Cuando el árbitro detiene el juego y el balón se encuentra dentro del área penal, la reanudación se realiza mediante un **balón a tierra** concedido al guardameta del equipo defensor, y el lanzamiento se efectúa dentro de su propia área penal. El balón debe tocar el suelo en el mismo punto donde estaba cuando se interrumpió el juego (salvo que haya habido una interferencia con el árbitro u otro agente externo, en cuyo caso se dejará caer en el lugar de la interferencia). (Regla 8 – Inicio y reanudación del juego, “Balón a tierra”, p. 106) (Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, Pág. 106).",
+      "contextos": [
+        "Regla 12 – Faltas y conducta incorrecta\n138\narbitral o bien contra el balón con el que se está jugando el partido, el juego se \nreanudará mediante un libre directo desde el lugar donde el objeto golpeó o \nhabría golpeado a la persona o al balón. Si este lugar se encontrara fuera del \nterreno de juego, el tiro libre se ejecutará en el punto más cercano de la línea \nde demarcación. Se concederá tiro penal si la acción tiene lugar dentro del área \ndel infractor.",
+        "Regla 8 – Inicio y reanudación del juego\ndicho saque.\n2. Balón a tierra\nProcedimiento\n•  Si al detener el juego:\n •  el balón está en el área penal, el árbitro concederá un balón a tierra al \nguardameta del equipo defensor dentro de su área penal;\n •  el balón está fuera del área penal, el árbitro concederá un balón a tierra a \nfavor de un jugador del equipo que habría conservado o ganado  la \nposesión (también desde la reanudación si el balón hubiera dejado de \nestar en juego)  siempre que el árbitro pueda determinarlo; en caso",
+        "Regla 8 – Inicio y reanudación del juego\ncontrario, dejará caer el balón ante un jugador del equipo que lo tocó por \núltima vez. El balón deberá tocar el suelo en el lugar en el que se \nencontraba cuando se detuvo el juego , a menos que hubiera impactado en \nun árbitro o en un agente externo, en cuyo caso se dejará caer en el lugar \nen el que se produjo la interferencia o el contacto .",
+        "Regla 2 – El balón\nllegar a tocar a un jugador, el travesaño o los postes durante la ejecución de un \npenal o de la tanda de penales, se volverá a ejecutar dicho lanzamiento.\n El balón no podrá ser reemplazado durante el transcurso del partido sin la \nautorización del árbitro.\n3. Balones adicionales\n Se podrán colocar balones adicionales alrededor del terreno de juego, siempre \nque cumplan las especificaciones estipuladas en la Regla 2 y su uso lo \nsupervise el árbitro.",
+        "Regla 12 – Faltas y conducta incorrecta\nmientras el balón se halle a distancia de juego y el jugador no retenga a su \nadversario con los brazos o el cuerpo. Si el balón se hallara a distancia de juego, \nel adversario puede cargar contra el jugador, dentro de los márgenes \npermitidos por las Reglas de Juego.\n3. Saque de esquina\n Se concederá un saque de esquina si un guardameta, dentro de su propia área, \ncontrolara el balón con las manos o los brazos durante más de ocho segundos",
+        "Regla 9 – Balón en juego\ntécnico, suplente, jugador sustituido o expulsado o jugador temporalmente fuera \ndel terreno de juego (por lesión, para ajustarse el equipamiento, etc.) toca un balón \nque está claramente a punto de salir del campo, la acción se sancionará con un tiro \nlibre indirecto. No habrá sanción disciplinaria.\nBalón en juego \n9",
+        "Regla 13 – Tiros libres\nde salir, el árbitro permitirá que el juego continúe. Si un adversario que se \nencuentra en el área penal cuando se ejecuta un tiro libre, o que entra en ella \nantes de que el balón esté en juego, tocara o disputara el balón antes de que \neste esté en juego, se repetirá el tiro libre.\n Si, una vez que el balón esté en juego, el ejecutor del tiro libre volviera a tocar \nel balón antes de que lo toque otro jugador, se concederá libre indirecto, o en",
+        "Regla 8 – Inicio y reanudación del juego\ninicial; si el balón entrara directamente en la meta del lanzador, se concederá \nun saque de esquina al adversario.\nInfracciones y sanciones\n En caso de que el jugador que ejecute el saque inicial toque el balón por \nsegunda vez antes de que lo toque otro jugador, se concederá un tiro libre \nindirecto, o bien un libre directo si cometiese una infracción por mano.\n Para cualquier otra infracción del procedimiento de saque inicial, se repetirá \ndicho saque.\n2. Balón a tierra\nProcedimiento",
+        "Regla 15 – El saque de banda\ndesde el lugar en que el balón haya salido del terreno de juego.\n Todos los adversarios deberán permanecer a una distancia mínima de 2 m  \n(2 yd) del lugar de la línea de banda donde se vaya a ejecutar el saque.\n El balón estará en juego tan pronto como haya entrado en el terreno de juego. \nSi el balón tocara el suelo antes de entrar en el terreno de juego, se repetirá el \nsaque de banda desde la misma posición. Si no se ejecutase correctamente, \nsacará de banda el equipo adversario.",
+        "Regla 14 – El penal\n146\n En el momento del golpeo, el guardameta deberá tener al menos parte de un \npie en contacto directo con la línea de meta, sobre esta o por detrás de esta.\n El balón estará en juego en el momento en que se golpee y se desplace con \nclaridad.\n El ejecutor del penal no podrá jugar el balón por segunda vez hasta que lo haya \ntocado otro jugador.\n La ejecución del penal se completará cuando el balón deje de moverse, deje de"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 2147,
+      "tiempo_s": 1.81
+    },
+    "agente": {
+      "respuesta": "**Según las Reglas de Juego (Regla 14 – El penal):**\n\n- Cuando el juego se detiene con el balón dentro del área penal del equipo infractor, se concede un tiro penal.  \n- El balón debe estar **inmóvil** y colocado **sobre el punto penal** antes del golpeo.  \n- El ejecutor del penal **toca el balón con el pie hacia adelante**; también puede golpearlo con el tacón siempre que el balón se mueva hacia adelante【{\"origen\":\"base\",\"documento\":\"Reglas-de-Juego-2026-27-IFAB.pdf\",\"pagina\":\"145\",\"seccion\":\"Regla 14 – El penal\",\"texto\":\"El ejecutor del penal tocará el balón con el pie hacia delante; se permite golpearlo con el tacón siempre que el balón se mueva hacia delante.\"}】.  \n- En el momento del golpeo, el guardameta **debe tener al menos parte de un pie en contacto directo con la línea de meta, sobre ella o por detrás de ella**【{\"origen\":\"base\",\"documento\":\"Reglas-de-Juego-2026-27-IFAB.pdf\",\"pagina\":\"146\",\"seccion\":\"Regla 14 – El penal\",\"texto\":\"En el momento del golpeo, el guardameta deberá tener al menos parte de un pie en contacto directo con la línea de meta, sobre esta o por detrás de esta.\"}】.  \n- El balón **está en juego en el instante en que se golpea y se desplaza con claridad**【{\"origen\":\"base\",\"documento\":\"Reglas-de-Juego-2026-27-IFAB.pdf\",\"pagina\":\"146\",\"seccion\":\"Regla 14 – El penal\",\"texto\":\"El balón estará en juego en el momento en que se golpee y se desplace con claridad.\"}】.  \n- El ejecutor **no podrá tocar el balón por segunda vez** hasta que lo haya tocado otro jugador【{\"origen\":\"base\",\"documento\":\"Reglas-de-Juego-2026-27-IFAB.pdf\",\"pagina\":\"146\",\"seccion\":\"Regla 14 – El penal\",\"texto\":\"El ejecutor del penal no podrá jugar el balón por segunda vez hasta que lo haya tocado otro jugador.\"}】.  \n- La ejecución del penal **finaliza cuando el balón deja de moverse** (o entra en la portería, o sale del terreno de juego)【{\"origen\":\"base\",\"documento\":\"Reglas-de-Juego-2026-27-IFAB.pdf\",\"pagina\":\"146\",\"seccion\":\"Regla 14 – El penal\",\"texto\":\"La ejecución del penal se completará cuando el balón deje de moverse, deje de\"}】.  ",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "balón a tierra dentro del área penal procedimiento"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "146",
+          "seccion": "Regla 14 – El penal"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "145",
+          "seccion": "Regla 14 – El penal"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "142",
+          "seccion": "Regla 13 – Tiros libres"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "138",
+          "seccion": "Regla 12 – Faltas y conducta incorrecta"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 14 – El penal\n146\n En el momento del golpeo, el guardameta deberá tener al menos parte de un \npie en contacto directo con la línea de meta, sobre esta o por detrás de esta.\n El balón estará en juego en el momento en que se golpee y se desplace con \nclaridad.\n El ejecutor del penal no podrá jugar el balón por segunda vez hasta que lo haya \ntocado otro jugador.\n La ejecución del penal se completará cuando el balón deje de moverse, deje de",
+        "Regla 14 – El penal\nEl ejecutor del penal tocará el balón con el pie hacia delante; se permite \ngolpearlo con el tacón siempre que el balón se mueva hacia delante.14\nEl penal",
+        "Regla 14 – El penal\nrepetirá el penal;\n •  si el balón no entrara en la portería directamente tras el lanzamiento, se \nconcederá un tiro libre indirecto;",
+        "Regla 13 – Tiros libres\ninfracciones sancionables con libre directo dentro del área penal del \ninfractor, se señalará penal;\n•  aquellos casos en los que las Reglas de Juego indiquen otra posición  \n(v. Reglas 3, 11 y 12). \nEl balón:\n•  deberá estar inmóvil y el ejecutor no deberá tocar el balón por segunda vez \nhasta que lo haya tocado otro jugador;\n• estará en juego una vez haya sido golpeado con el pie y se mueva con claridad.\nHasta que el balón esté en juego, todos los adversarios deberán permanecer:",
+        "Regla 12 – Faltas y conducta incorrecta\n138\narbitral o bien contra el balón con el que se está jugando el partido, el juego se \nreanudará mediante un libre directo desde el lugar donde el objeto golpeó o \nhabría golpeado a la persona o al balón. Si este lugar se encontrara fuera del \nterreno de juego, el tiro libre se ejecutará en el punto más cercano de la línea \nde demarcación. Se concederá tiro penal si la acción tiene lugar dentro del área \ndel infractor."
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 5530,
+      "tiempo_s": 4.65,
+      "limite": null
+    }
+  },
+  {
+    "pregunta": "¿Qué sanción recibe un jugador que entra en la sala de vídeo del VAR?",
+    "referencia": "Será expulsado todo jugador, suplente, jugador sustituido o miembro del cuerpo técnico que acceda a la sala de vídeo; quien entre en el área de revisión será amonestado (Regla 1, pág. 57).",
+    "fijo": {
+      "respuesta": "El jugador será **expulsado** del partido si accede a la sala de vídeo del VAR. (Fuente: Reglas‑de‑Juego‑2026‑27‑IFAB.pdf, Pág. 57; también Reglas‑de‑Juego‑2026‑27‑IFAB.pdf, Pág. 173)",
+      "contextos": [
+        "Regla 1 – El terreno de juego\nalejado. Durante el partido, únicamente las personas autorizadas podrán entrar \nen la sala de vídeo o comunicarse con el VAR, el AVAR o el técnico de \nrepeticiones.\n Será expulsado todo jugador, suplente, jugador sustituido o miembro del \ncuerpo técnico que acceda a la sala de vídeo.\nÁrea de revisión\n En aquellos partidos donde se utilice el VAR, se deberá contar al menos con un \nárea de revisión en la que el árbitro pueda llevar a cabo revisiones en el \nterreno de juego. Dicha área estará:",
+        "Protocolo del VAR\nidentidad del jugador que la ha cometido , solo podrá revisarse la \nidentidad del infractor.\ne.  Saque de esquina concedido de forma claramente errónea, siempre \nque la decisión se pueda modificar inmediatamente y sin retrasar la \nreanudación (opción para las competiciones)\n3.  Aspectos prácticos\n La actuación de los VAR durante un partido implica los siguientes aspectos \nprácticos:\n•  el VAR verá el partido en la sala de vídeo con la ayuda de uno o varios \nasistentes (AVAR);",
+        "Regla 1 – El terreno de juego\n57\n14.  Árbitros asistentes de vídeo (VAR) \n En aquellos partidos donde se utilice el VAR, se deberá contar con una sala de \nvídeo y al menos con un área de revisión. \nSala de vídeo \n La sala de vídeo es el lugar donde realizan su labor el árbitro asistente de vídeo \n(VAR), el asistente o los asistentes del VAR (AVAR) y su técnico de repeticiones; \nestará ubicada en el mismo estadio, cerca de este o en un emplazamiento más",
+        "Regla 5 – El árbitro\nantes posible;\n• no permitirá que entren en el terreno de juego personas no autorizadas.\n4. Árbitro asistente de vídeo (VAR)\n La actuación de los VAR solo estará permitida cuando el organizador del \nencuentro o de la competición cumpla todos los requisitos de implementación  \ndescritos en el Manual del VAR , y, haya recibido por escrito el permiso de la FIFA.\n El VAR puede asistir al árbitro únicamente en caso de que se produzca un",
+        "Protocolo del VAR\nmiembros del cuerpo técnico que hagan la señal de la televisión de manera \nexagerada o accedan al área de revisión.\n•  Se expulsará a los jugadores, suplentes, jugadores sustituidos o miembros \ndel cuerpo técnico que accedan a la sala de vídeo.\nValidez del partido\nComo norma general, no se invalidará el partido por los motivos siguientes:\n•  errores en el funcionamiento de la tecnología de VAR (al igual que sucede \ncon la detección automática de goles o DAG);",
+        "Cambios en las Reglas 2026/27\n1.  Un árbitro asistente de vídeo (VAR) es un miembro del equipo arbitral con \nacceso independiente a las imágenes de la retransmisión del partido; el VAR \npuede asistir al árbitro, si bien únicamente en caso de que se produzca un \n«error claro y manifiesto» o un «incidente grave inadvertido»  en relación \ncon:\na. gol/no gol ;\nb. penal/no penal ;\nc.  tarjeta roja directa  (no así la  incluida una segunda tarjeta amarilla/\namonestación claramente incorrecta );",
+        "Protocolo del VAR\n165\n El Protocolo del árbitro asistente de vídeo (VAR) se ajusta, en la medida de lo \nposible, a los principios y la filosofía de las Reglas de Juego.\n La actuación de los VAR solo estará permitida cuando el organizador del \nencuentro o de la competición cumpla todos los requisitos de implementación  \ndescritos en el Manual del VAR, y haya recibido por escrito el permiso de la FIFA.\n1 . Principios\n La actuación de los VAR en partidos de fútbol se basa en una serie de principios",
+        "Regla 11 – El fuera de juego\n120\n4. Infracciones y sanciones\n  En caso de infracción por fuera de juego, el árbitro concederá un libre indirecto \nen el lugar donde se produjo, incluso si el jugador infractor se encontrara en su \npropio campo.\n A efectos de determinar el fuera de juego, si un defensor saliera del terreno de \njuego sin la autorización del árbitro, se considerará que el jugador está situado en \nla línea de meta o de banda hasta que se detenga de nuevo el juego o hasta que el",
+        "Protocolo del VAR\nsiguientes casos: si el equipo atacante marca un gol; si a dicho equipo se le \nconcede un penal, un tiro libre, un saque de esquina o un saque de banda, o \nsi mantiene la posesión del balón una vez que ha finalizado el ataque inicial. \nEn el resto de situaciones, el árbitro asistente decidirá si levanta o no el \nbanderín en función de las circunstancias del juego.\nChequeo\n•  El VAR chequeará de forma automática las imágenes de la retransmisión",
+        "Cambios en las Reglas 2026/27\n190\nRegla 5. El árbitro (p. 86)\n4. Árbitro asistente de vídeo (VAR)\nTexto modificado\n(…)\nEl VAR puede asistir al árbitro únicamente en caso de que se produzca un «error \nclaro, obvio y manifiesto» o un «incidente grave inadvertido» en relación con:\n • gol/no gol;\n • penal/no penal;\n •  tarjeta roja directa  (no la incluida una  segunda amonestación claramente \nincorrecta );\n •  confusión de identidad (cuando el árbitro amonesta o expulsa al jugador \nequivocado del equipo infractor );"
+      ],
+      "llamadas_llm": 1,
+      "tokens_total": 1977,
+      "tiempo_s": 1.14
+    },
+    "agente": {
+      "respuesta": "**Sanción:** Será expulsado (expulsión directa) cualquier jugador, suplente, jugador sustituido o miembro del cuerpo técnico que acceda a la sala de vídeo del VAR.  \n\n(Fuente: Reglas-de-Juego-2026-27-IFAB.pdf, pág. 57, Regla 1 – El terreno de juego)",
+      "tools": [
+        {
+          "tool": "buscar_en_base",
+          "args": {
+            "consulta": "jugador entra en la sala de video del VAR sanción"
+          }
+        }
+      ],
+      "fuentes_base": [
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "57",
+          "seccion": "Regla 1 – El terreno de juego"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "201",
+          "seccion": "Cambios en las Reglas 2026/27"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "168",
+          "seccion": "Protocolo del VAR"
+        },
+        {
+          "documento": "Reglas-de-Juego-2026-27-IFAB.pdf",
+          "pagina": "165",
+          "seccion": "Protocolo del VAR"
+        }
+      ],
+      "fuentes_web": [],
+      "contextos": [
+        "Regla 1 – El terreno de juego\n57\n14.  Árbitros asistentes de vídeo (VAR) \n En aquellos partidos donde se utilice el VAR, se deberá contar con una sala de \nvídeo y al menos con un área de revisión. \nSala de vídeo \n La sala de vídeo es el lugar donde realizan su labor el árbitro asistente de vídeo \n(VAR), el asistente o los asistentes del VAR (AVAR) y su técnico de repeticiones; \nestará ubicada en el mismo estadio, cerca de este o en un emplazamiento más",
+        "Regla 1 – El terreno de juego\nalejado. Durante el partido, únicamente las personas autorizadas podrán entrar \nen la sala de vídeo o comunicarse con el VAR, el AVAR o el técnico de \nrepeticiones.\n Será expulsado todo jugador, suplente, jugador sustituido o miembro del \ncuerpo técnico que acceda a la sala de vídeo.\nÁrea de revisión\n En aquellos partidos donde se utilice el VAR, se deberá contar al menos con un \nárea de revisión en la que el árbitro pueda llevar a cabo revisiones en el \nterreno de juego. Dicha área estará:",
+        "Cambios en las Reglas 2026/27\n1.  Un árbitro asistente de vídeo (VAR) es un miembro del equipo arbitral con \nacceso independiente a las imágenes de la retransmisión del partido; el VAR \npuede asistir al árbitro, si bien únicamente en caso de que se produzca un \n«error claro y manifiesto» o un «incidente grave inadvertido»  en relación \ncon:\na. gol/no gol ;\nb. penal/no penal ;\nc.  tarjeta roja directa  (no así la  incluida una segunda tarjeta amarilla/\namonestación claramente incorrecta );",
+        "Protocolo del VAR\nidentidad del jugador que la ha cometido , solo podrá revisarse la \nidentidad del infractor.\ne.  Saque de esquina concedido de forma claramente errónea, siempre \nque la decisión se pueda modificar inmediatamente y sin retrasar la \nreanudación (opción para las competiciones)\n3.  Aspectos prácticos\n La actuación de los VAR durante un partido implica los siguientes aspectos \nprácticos:\n•  el VAR verá el partido en la sala de vídeo con la ayuda de uno o varios \nasistentes (AVAR);",
+        "Protocolo del VAR\n165\n El Protocolo del árbitro asistente de vídeo (VAR) se ajusta, en la medida de lo \nposible, a los principios y la filosofía de las Reglas de Juego.\n La actuación de los VAR solo estará permitida cuando el organizador del \nencuentro o de la competición cumpla todos los requisitos de implementación  \ndescritos en el Manual del VAR, y haya recibido por escrito el permiso de la FIFA.\n1 . Principios\n La actuación de los VAR en partidos de fútbol se basa en una serie de principios"
+      ],
+      "llamadas_llm": 2,
+      "tokens_total": 4512,
+      "tiempo_s": 1.44,
+      "limite": null
+    }
+  }
+]

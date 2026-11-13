@@ -1,0 +1,45 @@
+{
+  "n_preguntas": 15,
+  "juez_ragas": "openai/gpt-oss-20b",
+  "ragas": {
+    "fijo": {
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.7332,
+      "context_precision": 0.5774,
+      "context_recall": 1.0
+    },
+    "agente": {
+      "faithfulness": NaN,
+      "answer_relevancy": NaN,
+      "context_precision": NaN,
+      "context_recall": NaN
+    }
+  },
+  "ragas_valores_validos": {
+    "fijo": {
+      "faithfulness": 7,
+      "answer_relevancy": 7,
+      "context_precision": 7,
+      "context_recall": 7
+    },
+    "agente": {
+      "faithfulness": 0,
+      "answer_relevancy": 0,
+      "context_precision": 0,
+      "context_recall": 0
+    }
+  },
+  "costo": {
+    "fijo": {
+      "llamadas_llm": 1.0,
+      "tokens_total": 1970.2,
+      "tiempo_s": 1.49
+    },
+    "agente": {
+      "llamadas_llm": 2.2,
+      "tokens_total": 5130.2,
+      "tiempo_s": 2.93
+    }
+  },
+  "casos_cumplidos": "6/9"
+}

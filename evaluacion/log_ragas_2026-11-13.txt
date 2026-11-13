@@ -1,0 +1,153 @@
+﻿[rag 15:31:18] Cargando modelo de embeddings...
+.\venv\Scripts\python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to 
+enable higher rate limits and faster downloads.
+En línea: 1 Carácter: 333
++ ... NG='utf-8'; .\venv\Scripts\python.exe evaluar_agente.py --solo-ragas  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[rag 15:31:20] Modelo de embeddings listo
+[rag 15:31:20] Índice listo: 788 fragmentos
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing Faithfulness 
+from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. 
+Example: from ragas.metrics.collections import Faithfulness
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing 
+AnswerRelevancy from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' 
+instead. Example: from ragas.metrics.collections import AnswerRelevancy
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing 
+LLMContextPrecisionWithReference from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 
+'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import LLMContextPrecisionWithReference
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing 
+LLMContextRecall from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 
+'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import LLMContextRecall
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:184: DeprecationWarning: LangchainLLMWrapper is 
+deprecated and will be removed in a future version. Use llm_factory instead: from openai import OpenAI; from 
+ragas.llms import llm_factory; llm = llm_factory('gpt-4o-mini', client=OpenAI(api_key='...'))
+  juez = LangchainLLMWrapper(JuezGroq(model=RAGAS_MODEL, temperature=0.0, max_retries=2, max_tokens=8192))
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:194: DeprecationWarning: 
+LangchainEmbeddingsWrapper is deprecated and will be removed in a future version. Use the modern embedding providers 
+instead: embedding_factory('openai', model='text-embedding-3-small', client=openai_client) or from ragas.embeddings 
+import OpenAIEmbeddings, GoogleEmbeddings, HuggingFaceEmbeddings
+  embeddings=LangchainEmbeddingsWrapper(embeddings_model),
+
+=== 1. Respuestas del pipeline fijo y del agente (15 preguntas) ===
+
+=== 2. Ragas (juez: openai/gpt-oss-20b) ===
+   fijo: evaluando 8 preguntas (ya completas: 7)
+
+Evaluating:   0%|          | 0/32 [00:00<?, ?it/s]Exception raised in Job[0]: LimiteDiario(Error code: 429 - {'error': 
+{'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2p8whaqe89t9y2x2wp3bapp` 
+service tier `on_demand` on tokens per day (TPD): Limit 2000)
+
+Evaluating:   3%|▎         | 1/32 [00:05<02:50,  5.50s/it]Exception raised in Job[1]: LimiteDiario(límite diario del 
+juez agotado)
+Exception raised in Job[2]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[3]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[4]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[5]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[6]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[7]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[8]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[9]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[10]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[11]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[12]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[13]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[14]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[15]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[16]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[17]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[18]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[19]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[20]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[21]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[22]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[23]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[24]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[25]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[26]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[27]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[28]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[29]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[30]: LimiteDiario(límite diario del juez agotado)
+Exception raised in Job[31]: LimiteDiario(límite diario del juez agotado)
+
+Evaluating: 100%|██████████| 32/32 [00:05<00:00,  5.72it/s]
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing Faithfulness 
+from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. 
+Example: from ragas.metrics.collections import Faithfulness
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing 
+AnswerRelevancy from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' 
+instead. Example: from ragas.metrics.collections import AnswerRelevancy
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing 
+LLMContextPrecisionWithReference from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 
+'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import LLMContextPrecisionWithReference
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+C:\Users\jalej\Documents\Repositorios\consultor_fifa\evaluar_agente.py:166: DeprecationWarning: Importing 
+LLMContextRecall from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 
+'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import LLMContextRecall
+  from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
+   -> evaluacion/resultados/ragas_fijo.csv
+   AVISO: el juez openai/gpt-oss-20b agotó su límite diario de tokens en Groq.
+   AVISO: 8 preguntas de «fijo» quedaron con alguna métrica vacía. Vuelve a ejecutar el mismo comando más tarde y solo se evaluarán esas.
+   agente: evaluando 15 preguntas (ya completas: 0)
+   agente: se omite hoy porque el juez ya agotó su límite diario
+   -> evaluacion/resultados/ragas_comparacion.md
+
+=== 3. Costo ===
+   -> evaluacion/resultados/costo.md
+   -> evaluacion/resultados/resumen.json
+
+Listo.
+{
+  "n_preguntas": 15,
+  "juez_ragas": "openai/gpt-oss-20b",
+  "ragas": {
+    "fijo": {
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.7332,
+      "context_precision": 0.5774,
+      "context_recall": 1.0
+    },
+    "agente": {
+      "faithfulness": NaN,
+      "answer_relevancy": NaN,
+      "context_precision": NaN,
+      "context_recall": NaN
+    }
+  },
+  "ragas_valores_validos": {
+    "fijo": {
+      "faithfulness": 7,
+      "answer_relevancy": 7,
+      "context_precision": 7,
+      "context_recall": 7
+    },
+    "agente": {
+      "faithfulness": 0,
+      "answer_relevancy": 0,
+      "context_precision": 0,
+      "context_recall": 0
+    }
+  },
+  "costo": {
+    "fijo": {
+      "llamadas_llm": 1.0,
+      "tokens_total": 1970.2,
+      "tiempo_s": 1.49
+    },
+    "agente": {
+      "llamadas_llm": 2.2,
+      "tokens_total": 5130.2,
+      "tiempo_s": 2.93
+    }
+  },
+  "casos_cumplidos": "6/9"
+}

@@ -18,7 +18,9 @@ Uso:
 
 Límites del plan gratuito de Groq: el script espera entre llamadas (--pausa) y reintenta
 si llega el error 429. Si se agota el límite diario de tokens, se puede seguir otro día
-o usar otro modelo como juez de Ragas: RAGAS_MODEL=qwen/qwen3-32b python evaluar_agente.py
+o usar otro modelo como juez de Ragas (tiene su propio límite diario):
+    python evaluar_agente.py --solo-ragas          (juez por defecto: openai/gpt-oss-20b)
+Si Ragas se corta, al repetir el comando solo se evalúan las preguntas que quedaron sin nota.
 """
 import os
 import sys
@@ -45,7 +47,42 @@ from busqueda import embeddings_model                   # noqa: E402
 from tools import SITIOS_PERMITIDOS                     # noqa: E402
 
 METRICAS = ["faithfulness", "answer_relevancy", "context_precision", "context_recall"]
-RAGAS_MODEL = os.getenv("RAGAS_MODEL", GROQ_MODEL)
+# Juez de Ragas: otro modelo con su propio límite diario, para no gastar el del agente
+RAGAS_MODEL = os.getenv("RAGAS_MODEL", "openai/gpt-oss-20b")
+
+
+class LimiteDiario(Exception):
+    """Groq agotó los tokens del día para el juez. No se reintenta: hay que seguir otro día."""
+
+
+_limite_diario = {"agotado": False}
+
+
+class JuezGroq(ChatGroq):
+    """ChatGroq que, al recibir el 429 de tokens POR DÍA (TPD), deja de llamar a la API.
+    Así Ragas termina en minutos en vez de pasar horas reintentando cuando ya no hay cupo."""
+
+    def _revisar(self, e):
+        if "(TPD)" in str(e) or "tokens per day" in str(e):
+            _limite_diario["agotado"] = True
+            raise LimiteDiario(str(e)[:200]) from None
+        raise e
+
+    def _generate(self, *args, **kwargs):
+        if _limite_diario["agotado"]:
+            raise LimiteDiario("límite diario del juez agotado")
+        try:
+            return super()._generate(*args, **kwargs)
+        except RateLimitError as e:
+            self._revisar(e)
+
+    async def _agenerate(self, *args, **kwargs):
+        if _limite_diario["agotado"]:
+            raise LimiteDiario("límite diario del juez agotado")
+        try:
+            return await super()._agenerate(*args, **kwargs)
+        except RateLimitError as e:
+            self._revisar(e)
 
 
 def ruta(nombre):
@@ -106,11 +143,24 @@ def correr_preguntas(preguntas, pausa):
 # 2. Ragas
 # ---------------------------------------------------------------------------
 def evaluar_ragas(filas, sistema):
+    """Ragas para un sistema. Si ya hay resultados del mismo juez, solo evalúa las preguntas
+    que quedaron sin nota (NaN), por ejemplo porque Groq cortó por el límite diario de tokens."""
     import pandas as pd
     archivo = f"ragas_{sistema}.csv"
+    previo = pd.DataFrame()
     if os.path.exists(ruta(archivo)):
-        print(f"   {archivo} ya existe: se reutiliza (usa --rehacer para recalcular)")
-        return pd.read_csv(ruta(archivo))
+        previo = pd.read_csv(ruta(archivo))
+        if "juez" not in previo or (previo["juez"] != RAGAS_MODEL).any():
+            print(f"   {archivo} es de otro juez: se recalcula completo con {RAGAS_MODEL}")
+            previo = pd.DataFrame()
+        else:
+            previo = previo.dropna(subset=[m for m in METRICAS if m in previo])
+    hechas = set(previo["user_input"]) if len(previo) else set()
+    pendientes = [f for f in filas if f["pregunta"] not in hechas]
+    if not pendientes:
+        print(f"   {archivo}: las {len(filas)} preguntas ya tienen todas las métricas")
+        return previo
+    print(f"   {sistema}: evaluando {len(pendientes)} preguntas (ya completas: {len(hechas)})")
 
     from ragas import evaluate, EvaluationDataset, RunConfig
     from ragas.metrics import Faithfulness, AnswerRelevancy, LLMContextPrecisionWithReference, LLMContextRecall
@@ -123,9 +173,15 @@ def evaluar_ragas(filas, sistema):
         # Si el agente no llamó tools, Ragas necesita al menos un contexto (vacío)
         "retrieved_contexts": f[sistema]["contextos"] or [""],
         "reference": f["referencia"],
-    } for f in filas]
+    } for f in pendientes]
 
-    juez = LangchainLLMWrapper(ChatGroq(model=RAGAS_MODEL, temperature=0.0, max_retries=6))
+    if _limite_diario["agotado"]:
+        print(f"   {sistema}: se omite hoy porque el juez ya agotó su límite diario")
+        vacio = pd.DataFrame([{"sistema": sistema, "user_input": f["pregunta"]} for f in pendientes])
+        return pd.concat([previo, vacio], ignore_index=True)
+    # max_tokens amplio: gpt-oss razona antes de responder y con el valor por defecto a veces
+    # no alcanzaba a terminar (LLMDidNotFinishException)
+    juez = LangchainLLMWrapper(JuezGroq(model=RAGAS_MODEL, temperature=0.0, max_retries=2, max_tokens=8192))
     resultado = evaluate(
         dataset=EvaluationDataset.from_list(datos),
         metrics=[
@@ -136,16 +192,30 @@ def evaluar_ragas(filas, sistema):
         ],
         llm=juez,
         embeddings=LangchainEmbeddingsWrapper(embeddings_model),
-        run_config=RunConfig(max_workers=1, timeout=240, max_retries=10, max_wait=90),
+        # Se reintentan los errores pasajeros (límite por minuto, timeouts), nunca LimiteDiario
+        run_config=RunConfig(max_workers=1, timeout=240, max_retries=8, max_wait=60,
+                             exception_types=(RateLimitError, TimeoutError, ConnectionError)),
     )
-    df = resultado.to_pandas().rename(columns={"llm_context_precision_with_reference": "context_precision"})
-    df.insert(0, "sistema", sistema)
+    nuevo = resultado.to_pandas().rename(columns={"llm_context_precision_with_reference": "context_precision"})
+    nuevo.insert(0, "sistema", sistema)
+    nuevo["juez"] = RAGAS_MODEL
+    df = pd.concat([previo, nuevo], ignore_index=True)
+    orden = [f["pregunta"] for f in filas]
+    df = df.sort_values("user_input", key=lambda c: c.map(orden.index)).reset_index(drop=True)
     guardar(archivo, df.to_csv(index=False))
+    faltan = int(df[METRICAS].isna().any(axis=1).sum())
+    if _limite_diario["agotado"]:
+        print(f"   AVISO: el juez {RAGAS_MODEL} agotó su límite diario de tokens en Groq.")
+    if faltan:
+        print(f"   AVISO: {faltan} preguntas de «{sistema}» quedaron con alguna métrica vacía. "
+              "Vuelve a ejecutar el mismo comando más tarde y solo se evaluarán esas.")
     return df
 
 
-def md_ragas(promedios, n):
-    lineas = [f"Preguntas evaluadas: {n} · Juez de Ragas: {RAGAS_MODEL}", "",
+def md_ragas(promedios, n, conteo):
+    lineas = [f"Preguntas evaluadas: {n} · Juez de Ragas: {RAGAS_MODEL}",
+              "Valores válidos por métrica (fijo / agente): " + ", ".join(
+                  f"{m} {conteo['fijo'][m]}/{conteo['agente'][m]}" for m in METRICAS), "",
               "| Métrica | Avance 2 (pipeline fijo) | Avance 3 (agente) | Diferencia |", "|---|---|---|---|"]
     for m in METRICAS:
         a, b = promedios["fijo"].get(m), promedios["agente"].get(m)
@@ -257,7 +327,11 @@ def main():
     parser.add_argument("--limite", type=int, default=None, help="usar solo las primeras N preguntas")
     parser.add_argument("--pausa", type=float, default=20.0, help="segundos entre llamadas (límite de Groq)")
     parser.add_argument("--rehacer", action="store_true", help="borrar resultados anteriores y empezar de cero")
+    parser.add_argument("--juez", default=None, help="modelo de Groq que califica en Ragas (por defecto openai/gpt-oss-20b)")
     args = parser.parse_args()
+    global RAGAS_MODEL
+    if args.juez:
+        RAGAS_MODEL = args.juez
 
     if args.rehacer and os.path.isdir(RES_DIR):
         for nombre in os.listdir(RES_DIR):
@@ -274,12 +348,14 @@ def main():
         df = pd.concat([evaluar_ragas(filas, "fijo"), evaluar_ragas(filas, "agente")], ignore_index=True)
         promedios = {s: {m: round(float(df[df.sistema == s][m].mean()), 4) for m in METRICAS if m in df}
                      for s in ("fijo", "agente")}
-        guardar("ragas_comparacion.md", md_ragas(promedios, len(filas)))
+        conteo = {s: {m: int(df[df.sistema == s][m].notna().sum()) for m in METRICAS} for s in ("fijo", "agente")}
+        guardar("ragas_comparacion.md", md_ragas(promedios, len(filas), conteo))
 
         print("\n=== 3. Costo ===")
         c = costo(filas)
         guardar("costo.md", md_costo(c, len(filas)))
-        resumen.update({"n_preguntas": len(filas), "juez_ragas": RAGAS_MODEL, "ragas": promedios, "costo": c})
+        resumen.update({"n_preguntas": len(filas), "juez_ragas": RAGAS_MODEL, "ragas": promedios,
+                        "ragas_valores_validos": conteo, "costo": c})
 
     if not args.solo_ragas:
         print("\n=== 4. Casos de comportamiento ===")
